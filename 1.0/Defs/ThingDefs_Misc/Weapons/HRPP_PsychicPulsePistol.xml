@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ThingDef ParentName="BaseGunWithQuality">
+    <defName>HRPP_PsychicPulsePistol</defName>
+    <label>psychic pulse reacher</label>
+    <description>placeholder</description>
+    <techLevel>Archotech</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponsRanged/PsychicPulsePistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <statBases>
+      <Mass>5.2</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.26</AccuracyLong>
+      <RangedWeapon_Cooldown>1.23</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>ArchotechWeapons</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRPP_Bullet_PsychicPulsePistol</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>14.9</range>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef Class="HRPP.ThingDef_PsychicPulse" ParentName="BaseBullet">
+    <defName>HRPP_Bullet_PsychicPulsePistol</defName>
+    <thingClass>HRPP.Projectile_PsychicPulse</thingClass>
+    <baseline>0.05</baseline>
+    <insanityChance>0.05</insanityChance>
+    <HediffToAdd>HRPP_PsychicShock</HediffToAdd>
+    <!--============================================================-->
+    <label>charge shot</label>
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Pulse</damageDef>
+      <damageAmountBase>0</damageAmountBase>
+      <armorPenetrationBase>0</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+</Defs>
