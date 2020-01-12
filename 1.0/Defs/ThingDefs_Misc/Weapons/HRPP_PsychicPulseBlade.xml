@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="BaseWeapon">
+        <defName>HRPP_PsychicPulseBlade</defName>
+        <label>psychic pulse blade</label>
+        <description>placeholder</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponsMelee/PsychicPulseBlade</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techLevel>Archotech</techLevel>
+        <weaponTags>
+            <li>ArchotechMelee</li>
+        </weaponTags>
+        <thingCategories>
+            <li>WeaponsMelee</li>
+        </thingCategories>
+        <inspectorTabs>
+            <li>ITab_Art</li>
+        </inspectorTabs>
+        <statBases>
+            <Mass>1.6</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>HRPP_MeleePulse</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>point</label>
+                <capacities>
+                    <li>HRPP_MeleePulse</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2.6</cooldownTime>
+            </li>
+            <li>
+                <label>edge</label>
+                <capacities>
+                    <li>HRPP_MeleePulse</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2.6</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li>
+                <compClass>CompQuality</compClass>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+</Defs>

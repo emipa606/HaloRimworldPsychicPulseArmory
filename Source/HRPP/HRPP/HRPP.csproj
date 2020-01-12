@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomHediffWithComps.cs" />
+    <Compile Include="DameWorker_Pulse.cs" />
     <Compile Include="ThingDef_PsychicPulse.cs" />
     <Compile Include="Projectile_PsychicPulse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

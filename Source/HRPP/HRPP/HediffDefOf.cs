@@ -13,5 +13,6 @@ namespace HRPP
     public static class HediffDefOf
     {
         public static HediffDef HRPP_downed;
+        public static HediffDef HRPP_PsychicShock;
     }
 }
