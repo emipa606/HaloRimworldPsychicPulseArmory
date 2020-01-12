@@ -21,6 +21,9 @@
 			<AccuracyLong>0.29</AccuracyLong>
 			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
 		</statBases>
+		<tradeTags>
+			<li>Artifact</li>
+		</tradeTags>
 		<weaponTags>
 			<li>ArchotechWeapons</li>
 			<li>HRPPWAGun</li>
@@ -109,6 +112,9 @@
 			<AccuracyLong>0.35</AccuracyLong>
 			<RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
 		</statBases>
+		<tradeTags>
+			<li>Artifact</li>
+		</tradeTags>
 		<weaponTags>
 			<li>ArchotechWeapons</li>
 			<li>HRPPWAGun</li>
@@ -196,6 +202,9 @@
 			<AccuracyLong>0.45</AccuracyLong>
 			<RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
 		</statBases>
+		<tradeTags>
+			<li>Artifact</li>
+		</tradeTags>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<weaponTags>
 			<li>ArchotechWeapons</li>
@@ -284,6 +293,9 @@
 			<AccuracyLong>0.45</AccuracyLong>
 			<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
 		</statBases>
+		<tradeTags>
+			<li>Artifact</li>
+		</tradeTags>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<weaponTags>
 			<li>ArchotechWeapons</li>
@@ -372,6 +384,9 @@
 			<AccuracyLong>0.90</AccuracyLong>
 			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
 		</statBases>
+		<tradeTags>
+			<li>Artifact</li>
+		</tradeTags>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<weaponTags>
 			<li>ArchotechWeapons</li>

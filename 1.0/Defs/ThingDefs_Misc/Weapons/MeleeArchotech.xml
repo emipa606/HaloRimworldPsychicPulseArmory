@@ -19,6 +19,9 @@
         <thingCategories>
             <li>WeaponsMelee</li>
         </thingCategories>
+		<tradeTags>
+			<li>Artifact</li>
+		</tradeTags>
         <inspectorTabs>
             <li>ITab_Art</li>
         </inspectorTabs>
