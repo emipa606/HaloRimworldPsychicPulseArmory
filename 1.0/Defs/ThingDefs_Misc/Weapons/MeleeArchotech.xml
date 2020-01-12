@@ -6,14 +6,15 @@
 	<ThingDef ParentName="BaseWeapon">
         <defName>HRPPW_PsychicPulseBlade</defName>
         <label>psychic pulse blade</label>
-        <description>placeholder</description>
+        <description>An ancient pulse blade of unkown design, driving the target insane and disorients it.</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponsMelee/PsychicPulseBlade</texPath>
+            <texPath>Things/Item/Equipment/WeaponsMelee/HRPPW_blade</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <techLevel>Archotech</techLevel>
         <weaponTags>
             <li>ArchotechMelee</li>
+			<li>HRPPWAGun</li>
         </weaponTags>
         <thingCategories>
             <li>WeaponsMelee</li>
