@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <ThingDef ParentName="BaseWeapon">
-        <defName>HRPP_PsychicPulseBlade</defName>
+
+	<!-- ============================ Halo 4 Forerunner Blade ========================== -->
+
+	<ThingDef ParentName="BaseWeapon">
+        <defName>HRPPW_PsychicPulseBlade</defName>
         <label>psychic pulse blade</label>
         <description>placeholder</description>
         <graphicData>
@@ -54,6 +57,5 @@
             </li>
         </comps>
     </ThingDef>
-
 
 </Defs>

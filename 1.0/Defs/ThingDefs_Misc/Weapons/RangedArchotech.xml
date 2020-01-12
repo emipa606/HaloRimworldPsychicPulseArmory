@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ============================ Halo 4 Forerunner Pistol ========================== -->
+
+	<ThingDef ParentName="BaseGunWithQuality">
+		<defName>HRPPW_PsychicPulsePistol</defName>
+		<label>psychic pulse pistol</label>
+		<description>placeholder</description>
+		<techLevel>Archotech</techLevel>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponsRanged/PsychicPulsePistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<statBases>
+			<Mass>5.2</Mass>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.73</AccuracyShort>
+			<AccuracyMedium>0.40</AccuracyMedium>
+			<AccuracyLong>0.26</AccuracyLong>
+			<RangedWeapon_Cooldown>1.23</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>ArchotechWeapons</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>HRPPW_Bullet_PsychicPulsePistol</defaultProjectile>
+				<warmupTime>1.6</warmupTime>
+				<range>19.9</range>
+				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>HRPPW_Shot_PsychicPulsePistol</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>12</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef Class="HRPP.ThingDef_PsychicPulse" ParentName="BaseBullet">
+		<defName>HRPPW_Bullet_PsychicPulsePistol</defName>
+		<thingClass>HRPP.Projectile_PsychicPulse</thingClass>
+		<baseline>0.05</baseline>
+		<insanityChance>0.05</insanityChance>
+		<HediffToAdd>HRPP_PsychicShock</HediffToAdd>
+		<!--============================================================-->
+		<label>charge shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/PsychicPulse_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>HRPP_RangedPulse</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
+	
+	<!-- ============================ Halo 4 Forerunner Repeater ========================== -->
+  
+	<ThingDef ParentName="BaseGunWithQuality">
+		<defName>HRPPW_PsychicPulseRepeater</defName>
+		<label>psychic pulse repeater</label>
+		<description>placeholder</description>
+		<techLevel>Archotech</techLevel>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponsRanged/PsychicPulseRepeater</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<Mass>4.6</Mass>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.64</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>ArchotechWeapons</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>HRPPW_Bullet_PsychicPulseRepeater</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>25.9</range>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>4</burstShotCount>
+				<soundCast>HRPPW_Shot_PsychicPulseRepeater</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					  <li>Blunt</li>
+					  <li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef Class="HRPP.ThingDef_PsychicPulse" ParentName="BaseBullet">
+		<defName>HRPPW_Bullet_PsychicPulseRepeater</defName>
+		<thingClass>HRPP.Projectile_PsychicPulse</thingClass>
+		<baseline>0.10</baseline>
+		<insanityChance>0.05</insanityChance>
+		<HediffToAdd>HRPP_PsychicShock</HediffToAdd>
+		<!--============================================================-->
+		<label>charge shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/PsychicPulse_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>HRPP_RangedPulse</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- ============================ Halo 4 Forerunner Reacher ========================== -->
+  
+	<ThingDef ParentName="BaseGunWithQuality">
+		<defName>HRPPW_PsychicPulseReacher</defName>
+		<label>psychic pulse reacher</label>
+		<description>placeholder</description>
+		<techLevel>Archotech</techLevel>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponsRanged/PsychicPulseReacher</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeLance</soundInteract>
+		<statBases>
+			<Mass>5.2</Mass>
+			<AccuracyTouch>0.45</AccuracyTouch>
+			<AccuracyShort>0.54</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.83</AccuracyLong>
+			<RangedWeapon_Cooldown>3.15</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>ArchotechWeapons</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>HRPPW_Bullet_PsychicPulseReacher</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>35.9</range>
+				<soundCast>HHRPPW_Shot_PsychicPulseReacher</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>12</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef Class="HRPP.ThingDef_PsychicPulse" ParentName="BaseBullet">
+		<defName>HRPPW_Bullet_PsychicPulseReacher</defName>
+		<thingClass>HRPP.Projectile_PsychicPulse</thingClass>
+		<baseline>0.15</baseline>
+		<insanityChance>0.05</insanityChance>
+		<HediffToAdd>HRPP_PsychicShock</HediffToAdd>
+		<!--============================================================-->
+		<label>charge shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/PsychicPulse_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>HRPP_RangedPulse</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
+  
+</Defs>
