@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Defs>
 
   <SoundDef>
-    <defName>HRPPW_Shot_PsychicPulsePistol</defName>  
+    <defName>HRPPW_Shot_PsychicPulseCannon</defName>  
     <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
@@ -9,7 +9,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Weapon/HRPPW_pistol</clipFolderPath>
+            <clipFolderPath>Weapon/HRPPW_cannon</clipFolderPath>
           </li>
         </grains>
       </li>
@@ -25,7 +25,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Weapon/HRPPW_reacher</clipFolderPath>
+            <clipFolderPath>Weapon/HRPPW_repeater</clipFolderPath>
           </li>
         </grains>
       </li>

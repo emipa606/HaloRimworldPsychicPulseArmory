@@ -25,6 +25,9 @@
         <inspectorTabs>
             <li>ITab_Art</li>
         </inspectorTabs>
+		<tradeTags>
+			<li>Artifact</li>
+		</tradeTags>
         <statBases>
             <Mass>1.6</Mass>
         </statBases>
