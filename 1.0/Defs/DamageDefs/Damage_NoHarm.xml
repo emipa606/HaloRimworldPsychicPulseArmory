@@ -47,5 +47,32 @@
 		<armorCategory>Sharp</armorCategory>
 		<overkillPctToDestroyPart>0~0.1</overkillPctToDestroyPart>
 	</DamageDef>
-	
+
+	<DamageDef>
+		<defName>PsychicPulseBomb</defName>
+		<label>psychic pulse bomb</label>
+		<harmsHealth>false</harmsHealth>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<isExplosive>true</isExplosive>
+		<deathMessage>{0} has died in an psychic pulse explosion.</deathMessage>
+		<harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<minDamageToFragment>0</minDamageToFragment>
+		<defaultDamage>0</defaultDamage>
+		<defaultStoppingPower>0.5</defaultStoppingPower>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
+		<buildingDamageFactor>0</buildingDamageFactor>
+		<plantDamageFactor>0</plantDamageFactor>
+		<explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+		<explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+		<explosionCellMote>Mote_BlastDry</explosionCellMote>
+		<explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
+		<explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+		<explosionInteriorMote>Mote_ElectricalSpark</explosionInteriorMote>
+		<soundExplosion>Explosion_EMP</soundExplosion>
+		<combatLogRules>Damage_EMP</combatLogRules>
+	</DamageDef>
+
 </Defs>

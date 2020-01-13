@@ -91,9 +91,9 @@
 			<speed>55</speed>
 		</projectile>
 	</ThingDef>
-	
+
 	<!-- ============================ Halo 4 Forerunner Repeater ========================== -->
-  
+
 	<ThingDef ParentName="BaseGunWithQuality">
 		<defName>HRPPW_PsychicPulseRepeater</defName>
 		<label>psychic pulse repeater</label>
@@ -145,8 +145,8 @@
 			<li>
 				<label>barrel</label>
 				<capacities>
-					  <li>Blunt</li>
-					  <li>Poke</li>
+					<li>Blunt</li>
+					<li>Poke</li>
 				</capacities>
 				<power>9</power>
 				<cooldownTime>2</cooldownTime>
@@ -181,9 +181,9 @@
 			<speed>70</speed>
 		</projectile>
 	</ThingDef>
-	
+
 	<!-- ============================ Halo 4 Forerunner Spinner ========================== -->
-  
+
 	<ThingDef ParentName="BaseGunWithQuality">
 		<defName>HRPPW_PsychicPulseSpinner</defName>
 		<label>psychic pulse spinner</label>
@@ -236,8 +236,8 @@
 			<li>
 				<label>barrel</label>
 				<capacities>
-					  <li>Blunt</li>
-					  <li>Poke</li>
+					<li>Blunt</li>
+					<li>Poke</li>
 				</capacities>
 				<power>9</power>
 				<cooldownTime>2</cooldownTime>
@@ -274,7 +274,7 @@
 	</ThingDef>
 
 	<!-- ============================ Halo 4 Forerunner Scatter ========================== -->
-  
+
 	<ThingDef ParentName="BaseGunWithQuality">
 		<defName>HRPPW_PsychicPulseScatter</defName>
 		<label>psychic pulse scatter</label>
@@ -327,8 +327,8 @@
 			<li>
 				<label>barrel</label>
 				<capacities>
-					  <li>Blunt</li>
-					  <li>Poke</li>
+					<li>Blunt</li>
+					<li>Poke</li>
 				</capacities>
 				<power>9</power>
 				<cooldownTime>2</cooldownTime>
@@ -365,7 +365,7 @@
 	</ThingDef>
 
 	<!-- ============================ Halo 4 Forerunner Reacher ========================== -->
-  
+
 	<ThingDef ParentName="BaseGunWithQuality">
 		<defName>HRPPW_PsychicPulseReacher</defName>
 		<label>psychic pulse reacher</label>
@@ -452,9 +452,76 @@
 			<speed>115</speed>
 		</projectile>
 	</ThingDef>
-	
+
 	<!-- ============================ Halo 4 Forerunner Grenade ========================== -->
-	
-	<!-- FOR KIWI -->
-  
+
+	<ThingDef ParentName="BaseMakeableGrenade">
+		<defName>HRPPW_PsychicPulseGrenade</defName>
+		<label>psychic pulse grenades</label>
+		<description>placeholder</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponsRanged/HRPPW_grenade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Grenade</soundInteract>
+		<techLevel>Archotech</techLevel>
+		<statBases>
+			<Mass>1</Mass>
+			<RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
+			<WorkToMake>12000</WorkToMake>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+			<Chemfuel>80</Chemfuel>
+		</costList>
+		<weaponTags>
+			<li>ArchotechWeapons</li>
+		</weaponTags>
+		<thingCategories>
+			<li>Grenades</li>
+		</thingCategories>
+		<verbs>
+			<li>
+				<label>throw psychic pusle grenade</label>
+				<verbClass>Verb_LaunchProjectile</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<range>12.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>Proj_PsychicPulseGrenade</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>2.66</explosiveRadius>
+				<explosiveDamageType>PsychicPulseBomb</explosiveDamageType>
+				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGrenadeProjectile">
+		<defName>Proj_PsychicPulseGrenade</defName>
+		<label>psychic pulse grenade</label>
+		<thingClass>HRPP.Projectile_ExplosivePsychicPulse</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/HRPPW_grenade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<explosionRadius >2.9</explosionRadius >
+			<damageDef>PsychicPulseBomb</damageDef>
+			<!-- Use default damage from explosion def -->
+			<explosionDelay>100</explosionDelay>
+		</projectile>
+	</ThingDef>
+
 </Defs>
