@@ -49,7 +49,7 @@
   </SoundDef>
   
   <SoundDef>
-    <defName>HHRPPW_Shot_PsychicPulseSpinner</defName>  
+    <defName>HRPPW_Shot_PsychicPulseSpinner</defName>  
     <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
