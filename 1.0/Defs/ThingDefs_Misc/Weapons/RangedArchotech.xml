@@ -80,7 +80,7 @@
 		<!--============================================================-->
 		<label>charge shot</label>
 		<graphicData>
-			<texPath>Things/Projectile/PsychicPulse_Small</texPath>
+			<texPath>Things/Projectile/HRPPW_PsychicPulse_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -171,7 +171,7 @@
 		<!--============================================================-->
 		<label>charge shot</label>
 		<graphicData>
-			<texPath>Things/Projectile/PsychicPulse_Small</texPath>
+			<texPath>Things/Projectile/HRPPW_PsychicPulse_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -262,7 +262,7 @@
 		<!--============================================================-->
 		<label>charge shot</label>
 		<graphicData>
-			<texPath>Things/Projectile/PsychicPulse_Small</texPath>
+			<texPath>Things/Projectile/HRPPW_PsychicPulse_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -308,8 +308,6 @@
 				<defaultProjectile>HRPPW_Bullet_PsychicPulseShotgun</defaultProjectile>
 				<warmupTime>1.0</warmupTime>
 				<range>25.9</range>
-				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-				<burstShotCount>4</burstShotCount>
 				<soundCast>HHRPPW_Shot_PsychicPulseScatter</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
@@ -353,7 +351,7 @@
 		<!--============================================================-->
 		<label>charge shot</label>
 		<graphicData>
-			<texPath>Things/Projectile/PsychicPulse_Small</texPath>
+			<texPath>Things/Projectile/HRPPW_PsychicPulse_Shotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -442,7 +440,7 @@
 		<!--============================================================-->
 		<label>charge shot</label>
 		<graphicData>
-			<texPath>Things/Projectile/PsychicPulse_Small</texPath>
+			<texPath>Things/Projectile/HRPPW_PsychicPulse_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
