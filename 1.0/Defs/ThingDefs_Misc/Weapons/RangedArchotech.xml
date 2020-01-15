@@ -453,9 +453,9 @@
 
 	<!-- ============================ Halo 4 Forerunner Grenade ========================== -->
 
-	<ThingDef ParentName="BaseMakeableGrenade">
+	<ThingDef ParentName="BaseWeapon">
 		<defName>HRPPW_PsychicPulseGrenade</defName>
-		<label>psychic pulse grenades</label>
+		<label>psychic pulse detonator</label>
 		<description>placeholder</description>
 		<tickerType>Normal</tickerType>
 		<graphicData>
