@@ -475,6 +475,7 @@
 		</costList>
 		<weaponTags>
 			<li>ArchotechWeapons</li>
+			<li>HRPPWAGun</li>
 		</weaponTags>
 		<thingCategories>
 			<li>Grenades</li>
@@ -484,7 +485,7 @@
 				<label>throw psychic pusle grenade</label>
 				<verbClass>Verb_LaunchProjectile</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<range>12.9</range>
+				<range>14.9</range>
 				<forcedMissRadius>1.9</forcedMissRadius>
 				<warmupTime>1.5</warmupTime>
 				<noiseRadius>4</noiseRadius>
@@ -493,7 +494,7 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<defaultProjectile>Proj_PsychicPulseGrenade</defaultProjectile>
+				<defaultProjectile>HRPPW_Proj_PsychicPulseGrenade</defaultProjectile>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
 			</li>
 		</verbs>
@@ -507,7 +508,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseGrenadeProjectile">
-		<defName>Proj_PsychicPulseGrenade</defName>
+		<defName>HRPPW_Proj_PsychicPulseGrenade</defName>
 		<label>psychic pulse grenade</label>
 		<thingClass>HRPP.Projectile_ExplosivePsychicPulse</thingClass>
 		<graphicData>
@@ -515,7 +516,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
-			<explosionRadius >2.9</explosionRadius >
+			<explosionRadius >4.9</explosionRadius >
 			<damageDef>PsychicPulseBomb</damageDef>
 			<!-- Use default damage from explosion def -->
 			<explosionDelay>100</explosionDelay>
