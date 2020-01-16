@@ -3,7 +3,7 @@
 
 	<ThingDef Name="BaseArchotechGunWithQuality" ParentName="BaseGunWithQuality" Abstract="True">
 		<thingCategories>
-			<li>WeaponsRanged</li>
+			<li>HRPPW_WeaponsRanged</li>
 		</thingCategories>
 		<weaponTags>
 			<li>ArchotechWeapons</li>

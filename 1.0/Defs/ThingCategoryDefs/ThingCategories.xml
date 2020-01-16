@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+      <defName>HRPPW_WeaponsRanged</defName>
+      <label>psychic pulse</label>
+      <parent>WeaponsRanged</parent>
+    </ThingCategoryDef>
+
+</Defs>

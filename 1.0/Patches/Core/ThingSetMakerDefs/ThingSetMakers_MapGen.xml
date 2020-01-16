@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
+<Patch>
 
    <!-- Adds weapons to ancient danger sites -->
     <Operation Class="PatchOperationSequence">
-        <success>Always</success>
+        <success>Normal</success>
         <operations>
             <li Class="PatchOperationAdd">
-                <xpath>/Defs/ThingSetMakerDefs[defName="MapGen_AncientTempleContents"]/root/li</xpath>
+                <xpath>/Defs/ThingSetMakerDef[defName="MapGen_AncientTempleContents"]/root/options</xpath>
                 <value>
 					<li>
-						<chance>0.7</chance>
+						<chance>0.8</chance>
 						<thingSetMaker Class="ThingSetMaker_Count">
 							<fixedParams>
 								<qualityGenerator>Reward</qualityGenerator>
@@ -36,4 +36,4 @@
         </operations>
     </Operation>
 
-</Defs>
+</Patch>
