@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingDef Name="BaseArchotechGunWithQuality" ParentName="BaseGunWithQuality" Abstract="True">
+		<thingCategories>
+			<li>WeaponsRanged</li>
+		</thingCategories>
+		<weaponTags>
+			<li>ArchotechWeapons</li>
+			<li>HRPPWAGun</li>
+		</weaponTags>
+		<tradeTags>
+			<li>Artifact</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
 	<!-- ============================ Halo 4 Forerunner Cannon ========================== -->
 
-	<ThingDef ParentName="BaseGunWithQuality">
+	<ThingDef ParentName="BaseArchotechGunWithQuality">
 		<defName>HRPPW_PsychicPulseCannon</defName>
 		<label>psychic pulse cannon</label>
 		<description>An ancient handgun of unkown design, firing a psychic pulse that disoriant and downs the target or drive them insane.</description>
@@ -21,13 +37,6 @@
 			<AccuracyLong>0.29</AccuracyLong>
 			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
 		</statBases>
-		<tradeTags>
-			<li>Artifact</li>
-		</tradeTags>
-		<weaponTags>
-			<li>ArchotechWeapons</li>
-			<li>HRPPWAGun</li>
-		</weaponTags>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -74,7 +83,7 @@
 	<ThingDef Class="HRPP.ThingDef_PsychicPulse" ParentName="BaseBullet">
 		<defName>HRPPW_Bullet_PsychicPulseCannon</defName>
 		<thingClass>HRPP.Projectile_PsychicPulse</thingClass>
-		<baseline>0.05</baseline>
+		<baseline>0.10</baseline>
 		<insanityChance>0.05</insanityChance>
 		<HediffToAdd>HRPP_PsychicShock</HediffToAdd>
 		<!--============================================================-->
@@ -94,7 +103,7 @@
 
 	<!-- ============================ Halo 4 Forerunner Repeater ========================== -->
 
-	<ThingDef ParentName="BaseGunWithQuality">
+	<ThingDef ParentName="BaseArchotechGunWithQuality">
 		<defName>HRPPW_PsychicPulseRepeater</defName>
 		<label>psychic pulse repeater</label>
 		<description>An ancient rifle of unkown design, firing multiple psychic pulses that disoriant and downs the target or drive them insane.</description>
@@ -112,13 +121,6 @@
 			<AccuracyLong>0.35</AccuracyLong>
 			<RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
 		</statBases>
-		<tradeTags>
-			<li>Artifact</li>
-		</tradeTags>
-		<weaponTags>
-			<li>ArchotechWeapons</li>
-			<li>HRPPWAGun</li>
-		</weaponTags>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -165,7 +167,7 @@
 	<ThingDef Class="HRPP.ThingDef_PsychicPulse" ParentName="BaseBullet">
 		<defName>HRPPW_Bullet_PsychicPulseRepeater</defName>
 		<thingClass>HRPP.Projectile_PsychicPulse</thingClass>
-		<baseline>0.10</baseline>
+		<baseline>0.18</baseline>
 		<insanityChance>0.05</insanityChance>
 		<HediffToAdd>HRPP_PsychicShock</HediffToAdd>
 		<!--============================================================-->
@@ -184,7 +186,7 @@
 
 	<!-- ============================ Halo 4 Forerunner Spinner ========================== -->
 
-	<ThingDef ParentName="BaseGunWithQuality">
+	<ThingDef ParentName="BaseArchotechGunWithQuality">
 		<defName>HRPPW_PsychicPulseSpinner</defName>
 		<label>psychic pulse spinner</label>
 		<description>An ancient rapid fire rifle of unkown design, firing multiple psychic pulses in a short time that disoriant and downs the target or drive them insane.</description>
@@ -202,14 +204,6 @@
 			<AccuracyLong>0.45</AccuracyLong>
 			<RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
 		</statBases>
-		<tradeTags>
-			<li>Artifact</li>
-		</tradeTags>
-		<equippedAngleOffset>45</equippedAngleOffset>
-		<weaponTags>
-			<li>ArchotechWeapons</li>
-			<li>HRPPWAGun</li>
-		</weaponTags>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -256,7 +250,7 @@
 	<ThingDef Class="HRPP.ThingDef_PsychicPulse" ParentName="BaseBullet">
 		<defName>HRPPW_Bullet_PsychicPulseSpinner</defName>
 		<thingClass>HRPP.Projectile_PsychicPulse</thingClass>
-		<baseline>0.08</baseline>
+		<baseline>0.09</baseline>
 		<insanityChance>0.05</insanityChance>
 		<HediffToAdd>HRPP_PsychicShock</HediffToAdd>
 		<!--============================================================-->
@@ -275,7 +269,7 @@
 
 	<!-- ============================ Halo 4 Forerunner Scatter ========================== -->
 
-	<ThingDef ParentName="BaseGunWithQuality">
+	<ThingDef ParentName="BaseArchotechGunWithQuality">
 		<defName>HRPPW_PsychicPulseScatter</defName>
 		<label>psychic pulse scatter</label>
 		<description>An ancient shotgun of unkown design, firing multiple, small psychic pulses in one shot that disoriant and downs the target or drive them insane.</description>
@@ -293,14 +287,6 @@
 			<AccuracyLong>0.45</AccuracyLong>
 			<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
 		</statBases>
-		<tradeTags>
-			<li>Artifact</li>
-		</tradeTags>
-		<equippedAngleOffset>45</equippedAngleOffset>
-		<weaponTags>
-			<li>ArchotechWeapons</li>
-			<li>HRPPWAGun</li>
-		</weaponTags>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -345,7 +331,7 @@
 	<ThingDef Class="HRPP.ThingDef_PsychicPulse" ParentName="BaseBullet">
 		<defName>HRPPW_Bullet_PsychicPulseShotgun</defName>
 		<thingClass>HRPP.Projectile_PsychicPulse</thingClass>
-		<baseline>0.25</baseline>
+		<baseline>0.26</baseline>
 		<insanityChance>0.25</insanityChance>
 		<HediffToAdd>HRPP_PsychicShock</HediffToAdd>
 		<!--============================================================-->
@@ -364,7 +350,7 @@
 
 	<!-- ============================ Halo 4 Forerunner Reacher ========================== -->
 
-	<ThingDef ParentName="BaseGunWithQuality">
+	<ThingDef ParentName="BaseArchotechGunWithQuality">
 		<defName>HRPPW_PsychicPulseReacher</defName>
 		<label>psychic pulse reacher</label>
 		<description>An ancient sniper of unkown design, firing a fast psychic pulses that disoriant and downs the target or drive them insane.</description>
@@ -382,14 +368,6 @@
 			<AccuracyLong>0.90</AccuracyLong>
 			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
 		</statBases>
-		<tradeTags>
-			<li>Artifact</li>
-		</tradeTags>
-		<equippedAngleOffset>45</equippedAngleOffset>
-		<weaponTags>
-			<li>ArchotechWeapons</li>
-			<li>HRPPWAGun</li>
-		</weaponTags>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -434,7 +412,7 @@
 	<ThingDef Class="HRPP.ThingDef_PsychicPulse" ParentName="BaseBullet">
 		<defName>HRPPW_Bullet_PsychicPulseReacher</defName>
 		<thingClass>HRPP.Projectile_PsychicPulse</thingClass>
-		<baseline>0.20</baseline>
+		<baseline>0.30</baseline>
 		<insanityChance>0.12</insanityChance>
 		<HediffToAdd>HRPP_PsychicShock</HediffToAdd>
 		<!--============================================================-->
@@ -467,16 +445,7 @@
 		<statBases>
 			<Mass>1</Mass>
 			<RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
-			<WorkToMake>12000</WorkToMake>
 		</statBases>
-		<costList>
-			<Steel>20</Steel>
-			<Chemfuel>80</Chemfuel>
-		</costList>
-		<weaponTags>
-			<li>ArchotechWeapons</li>
-			<li>HRPPWAGun</li>
-		</weaponTags>
 		<thingCategories>
 			<li>Grenades</li>
 		</thingCategories>
@@ -500,7 +469,7 @@
 		</verbs>
 		<comps>
 			<li Class="CompProperties_Explosive">
-				<explosiveRadius>2.66</explosiveRadius>
+				<explosiveRadius>4.66</explosiveRadius>
 				<explosiveDamageType>PsychicPulseBomb</explosiveDamageType>
 				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
 			</li>

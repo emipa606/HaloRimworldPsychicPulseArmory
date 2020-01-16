@@ -71,7 +71,7 @@
 		<explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
 		<explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
 		<explosionInteriorMote>Mote_ElectricalSpark</explosionInteriorMote>
-		<soundExplosion>Explosion_EMP</soundExplosion>
+		<soundExplosion>HHRPPW_Shot_PsychicPulseGrenade</soundExplosion>
 		<combatLogRules>Damage_EMP</combatLogRules>
 	</DamageDef>
 

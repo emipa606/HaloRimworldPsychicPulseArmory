@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <!-- Adds weapons to ancient danger sites -->
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingSetMakerDefs[defName="MapGen_AncientTempleContents"]/root/li</xpath>
+                <value>
+					<li>
+						<chance>0.7</chance>
+						<thingSetMaker Class="ThingSetMaker_Count">
+							<fixedParams>
+								<qualityGenerator>Reward</qualityGenerator>
+								<filter>
+									<thingDefs>
+										<li>HRPPW_PsychicPulseCannon</li>
+										<li>HRPPW_PsychicPulseRepeater</li>
+										<li>HRPPW_PsychicPulseSpinner</li>
+										<li>HRPPW_PsychicPulseScatter</li>
+										<li>HRPPW_PsychicPulseReacher</li>
+										<li>HRPPW_PsychicPulseGrenade</li>
+										<li>HRPPW_PsychicPulseBlade</li>
+									</thingDefs>
+								</filter>
+								<countRange>
+									<min>1</min>
+									<max>2</max>
+								</countRange>
+							</fixedParams>
+					  </thingSetMaker>
+					</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+</Defs>
