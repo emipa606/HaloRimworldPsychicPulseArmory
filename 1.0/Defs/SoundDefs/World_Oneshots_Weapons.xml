@@ -81,6 +81,22 @@
   </SoundDef>
   
   <SoundDef>
+    <defName>HHRPPW_Shot_PsychicPulseLancer</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/HRPPW_lancer</clipFolderPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
     <defName>HHRPPW_Shot_PsychicPulseGrenade</defName>  
     <context>MapOnly</context>
     <eventNames />  

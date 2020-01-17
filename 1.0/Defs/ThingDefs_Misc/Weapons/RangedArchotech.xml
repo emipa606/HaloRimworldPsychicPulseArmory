@@ -2,6 +2,23 @@
 <Defs>
 
 	<ThingDef Name="BaseArchotechGunWithQuality" ParentName="BaseGunWithQuality" Abstract="True">
+		<techLevel>Archotech</techLevel>
+		<thingCategories>
+			<li>HRPPW_WeaponsRanged</li>
+		</thingCategories>
+		<weaponTags>
+			<li>ArchotechWeapons</li>
+			<li>HRPPWAGun</li>
+		</weaponTags>
+		<tradeTags>
+			<li>Artifact</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<ThingDef Name="BaseArchotechGun" ParentName="BaseGun" Abstract="True">
 		<thingCategories>
 			<li>HRPPW_WeaponsRanged</li>
 		</thingCategories>
@@ -22,14 +39,14 @@
 	<ThingDef ParentName="BaseArchotechGunWithQuality">
 		<defName>HRPPW_PsychicPulseCannon</defName>
 		<label>psychic pulse cannon</label>
-		<description>An ancient handgun of unkown design, firing a psychic pulse that disoriant and downs the target or drive them insane.</description>
-		<techLevel>Archotech</techLevel>
+		<description>An ancient handgun of unkown design, firing a psychic pulse that disorients and downs the target or drive them insane.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponsRanged/HRPPW_pistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Autopistol</soundInteract>
 		<statBases>
+			<MarketValue>900</MarketValue>
 			<Mass>1.4</Mass>
 			<AccuracyTouch>0.85</AccuracyTouch>
 			<AccuracyShort>0.73</AccuracyShort>
@@ -106,14 +123,14 @@
 	<ThingDef ParentName="BaseArchotechGunWithQuality">
 		<defName>HRPPW_PsychicPulseRepeater</defName>
 		<label>psychic pulse repeater</label>
-		<description>An ancient rifle of unkown design, firing multiple psychic pulses that disoriant and downs the target or drive them insane.</description>
-		<techLevel>Archotech</techLevel>
+		<description>An ancient rifle of unkown design, firing multiple psychic pulses that disorients and downs the target or drive them insane.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponsRanged/HRRPW_repeater</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_ChargeRifle</soundInteract>
 		<statBases>
+			<MarketValue>1200</MarketValue>
 			<Mass>2.6</Mass>
 			<AccuracyTouch>0.90</AccuracyTouch>
 			<AccuracyShort>0.66</AccuracyShort>
@@ -189,14 +206,14 @@
 	<ThingDef ParentName="BaseArchotechGunWithQuality">
 		<defName>HRPPW_PsychicPulseSpinner</defName>
 		<label>psychic pulse spinner</label>
-		<description>An ancient rapid fire rifle of unkown design, firing multiple psychic pulses in a short time that disoriant and downs the target or drive them insane.</description>
-		<techLevel>Archotech</techLevel>
+		<description>An ancient rapid fire rifle of unkown design, firing multiple psychic pulses in a short time that disorients and downs the target or drive them insane.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponsRanged/HRPPW_lmg</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_ChargeRifle</soundInteract>
 		<statBases>
+			<MarketValue>2800</MarketValue>
 			<Mass>3.8</Mass>
 			<AccuracyTouch>0.85</AccuracyTouch>
 			<AccuracyShort>0.64</AccuracyShort>
@@ -204,6 +221,7 @@
 			<AccuracyLong>0.45</AccuracyLong>
 			<RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
 		</statBases>
+        <equippedAngleOffset>45</equippedAngleOffset>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -272,14 +290,14 @@
 	<ThingDef ParentName="BaseArchotechGunWithQuality">
 		<defName>HRPPW_PsychicPulseScatter</defName>
 		<label>psychic pulse scatter</label>
-		<description>An ancient shotgun of unkown design, firing multiple, small psychic pulses in one shot that disoriant and downs the target or drive them insane.</description>
-		<techLevel>Archotech</techLevel>
+		<description>An ancient shotgun of unkown design, firing multiple, small psychic pulses in one shot that disorients and downs the target or drive them insane.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponsRanged/HRPPW_scatter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_ChargeRifle</soundInteract>
 		<statBases>
+			<MarketValue>1550</MarketValue>
 			<Mass>4.4</Mass>
 			<AccuracyTouch>0.80</AccuracyTouch>
 			<AccuracyShort>0.87</AccuracyShort>
@@ -293,7 +311,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>HRPPW_Bullet_PsychicPulseShotgun</defaultProjectile>
 				<warmupTime>1.0</warmupTime>
-				<range>25.9</range>
+				<range>20.9</range>
 				<soundCast>HHRPPW_Shot_PsychicPulseScatter</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
@@ -353,14 +371,14 @@
 	<ThingDef ParentName="BaseArchotechGunWithQuality">
 		<defName>HRPPW_PsychicPulseReacher</defName>
 		<label>psychic pulse reacher</label>
-		<description>An ancient sniper of unkown design, firing a fast psychic pulses that disoriant and downs the target or drive them insane.</description>
-		<techLevel>Archotech</techLevel>
+		<description>An ancient sniper of unkown design, firing a fast psychic pulse that disorients and downs the target or drive them insane.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponsRanged/HRPPW_reacher</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_ChargeLance</soundInteract>
 		<statBases>
+			<MarketValue>1950</MarketValue>
 			<Mass>4.8</Mass>
 			<AccuracyTouch>0.45</AccuracyTouch>
 			<AccuracyShort>0.70</AccuracyShort>
@@ -368,6 +386,7 @@
 			<AccuracyLong>0.90</AccuracyLong>
 			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
 		</statBases>
+        <equippedAngleOffset>45</equippedAngleOffset>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -428,21 +447,111 @@
 			<speed>115</speed>
 		</projectile>
 	</ThingDef>
+	
+	<!-- ============================ Halo 4 Forerunner Lancer ========================== -->
+
+	<ThingDef ParentName="BaseArchotechGunWithQuality">
+		<defName>HRPPW_PsychicPulseLancer</defName>
+		<label>psychic pulse lancer</label>
+		<description>An ancient lancer of unkown design, firing a fast psychic pulse lance that disorients and downs the target or drive them insane.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponsRanged/HRPPW_lancer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeLance</soundInteract>
+		<statBases>
+			<MarketValue>3600</MarketValue>
+			<Mass>5.2</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.78</AccuracyShort>
+			<AccuracyMedium>0.85</AccuracyMedium>
+			<AccuracyLong>0.70</AccuracyLong>
+			<RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+		</statBases>
+        <equippedAngleOffset>45</equippedAngleOffset>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>HRPPW_Bullet_PsychicPulseLancer</defaultProjectile>
+				<warmupTime>4.2</warmupTime>
+				<range>47.9</range>
+				<soundCast>HHRPPW_Shot_PsychicPulseLancer</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>handel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef Class="HRPP.ThingDef_PsychicPulse" ParentName="BaseBullet">
+		<defName>HRPPW_Bullet_PsychicPulseLancer</defName>
+		<thingClass>HRPP.Projectile_PsychicPulse</thingClass>
+		<baseline>0.50</baseline>
+		<insanityChance>0.28</insanityChance>
+		<HediffToAdd>HRPP_PsychicShock</HediffToAdd>
+		<!--============================================================-->
+		<label>charge shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/HRPPW_PsychicPulse_LanceShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>HRPP_RangedPulse</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
+			<speed>130</speed>
+		</projectile>
+	</ThingDef>
 
 	<!-- ============================ Halo 4 Forerunner Grenade ========================== -->
 
-	<ThingDef ParentName="BaseWeapon">
+	<ThingDef ParentName="BaseArchotechGun">
 		<defName>HRPPW_PsychicPulseGrenade</defName>
 		<label>psychic pulse detonator</label>
-		<description>placeholder</description>
+		<description>An ancient grenade of unkown design, emitting a strong and rapid psychic pulse that disorients and downs the target or drive them insane.</description>
 		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponsRanged/HRPPW_grenade</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Grenade</soundInteract>
-		<techLevel>Archotech</techLevel>
 		<statBases>
+			<MarketValue>1600</MarketValue>
 			<Mass>1</Mass>
 			<RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
 		</statBases>
