@@ -14,7 +14,7 @@ namespace HRPP
         protected override void ApplySpecialEffectsToPart(Pawn pawn, float totalDamage, DamageInfo dinfo, DamageWorker.DamageResult result)
         {
             //This checks to see if the character has a heal differential, or hediff on them already.
-            var hediffOnPawn = pawn.health?.hediffSet?.GetFirstHediffOfDef(HediffDefOf.HRPP_PsychicShock);
+            var hediffOnPawn = pawn.health?.hediffSet?.GetFirstHediffOfDef(HRPP_HediffDefOf.HRPP_PsychicShock);
             // Severity percentage to add calculation based on quality
             float severity = 0.12f;
             QualityCategory quality;
@@ -56,7 +56,7 @@ namespace HRPP
             {
                 //These three lines create a new health differential or Hediff,
                 //put them on the character, and increase its severity by a random amount.
-                Hediff hediff = HediffMaker.MakeHediff(HediffDefOf.HRPP_PsychicShock, pawn);
+                Hediff hediff = HediffMaker.MakeHediff(HRPP_HediffDefOf.HRPP_PsychicShock, pawn);
                 hediff.Severity = severity;
                 pawn.health.AddHediff(hediff);
             }

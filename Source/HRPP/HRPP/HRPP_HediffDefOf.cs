@@ -10,7 +10,7 @@ using UnityEngine;
 namespace HRPP
 {
     [DefOf]
-    public static class HediffDefOf
+    public static class HRPP_HediffDefOf
     {
         public static HediffDef HRPP_downed;
         public static HediffDef HRPP_PsychicShock;
