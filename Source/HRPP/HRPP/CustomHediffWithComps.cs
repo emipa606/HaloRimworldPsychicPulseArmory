@@ -23,6 +23,10 @@ namespace HRPP
             {
                 this.pawn.health.RemoveHediff(this.pawn.health.hediffSet.GetFirstHediffOfDef(HRPP_HediffDefOf.HRPP_downed));
             }
+            else if (this.severityInt > 1.4)
+            {
+                this.severityInt = 1;
+            }
         }
     }
 }
