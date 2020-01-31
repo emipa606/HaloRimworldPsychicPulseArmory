@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Manifest>
     <identifier>HALO: Rimworld Psychic Pulse Weaponry</identifier>
-    <version>1.0</version>
+    <version>1.0.2</version>
 	<loadAfter>
 		<li>ProperShotguns</li>
 	</loadAfter>
