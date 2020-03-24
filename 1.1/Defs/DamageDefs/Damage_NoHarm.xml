@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DamageDef>
+		<defName>HRPPA_RangedPulse</defName>
+		<label>pulse</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>false</externalViolence>
+		<deathMessage>{0} has been pulsed to death.</deathMessage>
+		<hediff>Gunshot</hediff>
+		<harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<harmsHealth>false</harmsHealth>
+	</DamageDef>
+
+	<ToolCapacityDef>
+		<defName>HRPPA_MeleePulse</defName>
+	</ToolCapacityDef>
+
+	<ManeuverDef>
+		<defName>HRPPA_MeleePulse</defName>
+		<requiredCapacity>HRPPA_MeleePulse</requiredCapacity>
+		<verb>
+			<verbClass>Verb_MeleeAttackDamage</verbClass>
+			<meleeDamageDef>HRPPA_MeleePulse</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Bite_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Bite_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Bite_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Bite_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
+
+	<DamageDef>
+		<defName>HRPPA_MeleePulse</defName>
+		<label>pulse</label>
+		<workerClass>HRPPA.DameWorker_Pulse</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been pulsed to death.</deathMessage>
+		<harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>
+		<harmsHealth>false</harmsHealth>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<overkillPctToDestroyPart>0~0.1</overkillPctToDestroyPart>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>PsychicPulseBomb</defName>
+		<label>psychic pulse bomb</label>
+		<harmsHealth>false</harmsHealth>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<isExplosive>true</isExplosive>
+		<deathMessage>{0} has died in an psychic pulse explosion.</deathMessage>
+		<harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<minDamageToFragment>0</minDamageToFragment>
+		<defaultDamage>0</defaultDamage>
+		<defaultStoppingPower>0.5</defaultStoppingPower>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
+		<buildingDamageFactor>0</buildingDamageFactor>
+		<plantDamageFactor>0</plantDamageFactor>
+		<explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+		<explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+		<explosionCellMote>Mote_BlastDry</explosionCellMote>
+		<explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
+		<explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+		<explosionInteriorMote>Mote_ElectricalSpark</explosionInteriorMote>
+		<soundExplosion>HRPPA_Shot_PsychicPulseGrenade</soundExplosion>
+		<combatLogRules>Damage_EMP</combatLogRules>
+	</DamageDef>
+
+</Defs>

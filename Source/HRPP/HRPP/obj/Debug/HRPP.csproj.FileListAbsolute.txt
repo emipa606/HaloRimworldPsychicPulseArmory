@@ -1,4 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HALORimworldPsychicPulseWeaponry\1.0\Assemblies\HRPP.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HALORimworldPsychicPulseWeaponry\Source\HRPP\HRPP\obj\Debug\HRPP.csprojAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HALORimworldPsychicPulseWeaponry\Source\HRPP\HRPP\obj\Debug\HRPP.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HALORimworldPsychicPulseWeaponry\Source\HRPP\HRPP\obj\Debug\HRPP.dll
