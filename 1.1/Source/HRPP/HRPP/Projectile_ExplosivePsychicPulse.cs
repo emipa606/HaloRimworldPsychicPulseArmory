@@ -15,6 +15,8 @@ namespace HRPPA
         {
             float explosionRadius = this.def.projectile.explosionRadius;
             IEnumerable<IntVec3> c = GenRadial.RadialCellsAround(this.Position, explosionRadius, true);
+            MoteMaker.MakeStaticMote(this.Position.ToVector3(), this.Map, ThingDefOf.Mote_PsycastPsychicEffect, 3f);
+            MoteMaker.MakeConnectingLine(this.launcher.DrawPos, this.Position.ToVector3(), ThingDefOf.Mote_PsycastPsychicLine, this.launcher.Map, 1f);
             foreach (IntVec3 intvec in c)
             {
                 if (intvec.InBounds(this.Map))

@@ -22,8 +22,39 @@ namespace HRPPA
         protected override void Impact(Thing hitThing)
         {
             base.Impact(hitThing);
-            if (Def != null && hitThing != null && hitThing is Pawn hitPawn)
+            if (Def != null && hitThing != null && hitThing is Pawn hitPawn && hitPawn != null)
             {
+                /*if(hitPawn.RaceProps != null && hitPawn.RaceProps.intelligence == Intelligence.Animal && hitPawn.mindState.mentalStateHandler.CurStateDef != MentalStateDefOf.Manhunter && hitPawn.Faction != Faction.OfPlayer)
+                {
+                    System.Random random = new System.Random();
+                    int rn = random.Next(0, 101);
+                    if(rn > 25)
+                    {
+                        hitPawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter);
+                        Find.LetterStack.ReceiveLetter("LetterLabelAnimalInsanitySingle".Translate(hitPawn.Label, hitPawn.Named("ANIMAL")), "AnimalInsanitySingle".Translate(hitPawn.Label, hitPawn.Named("ANIMAL")), LetterDefOf.ThreatBig, hitPawn);
+                    }
+                    if (rn > 50)
+                    {
+                        List<Pawn> sameAnimalRaces = (from p in this.Map.mapPawns.AllPawnsSpawned
+                                                      where p.kindDef == hitPawn.kindDef
+                                                      select p).ToList<Pawn>();
+                        /*if(sameAnimalRaces.Count > 0)0
+                        {
+                            foreach (Pawn item in sameAnimalRaces)
+                            {
+                                item.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter);
+                            }
+                            Find.LetterStack.ReceiveLetter("LetterLabelManhunterPackArrived".Translate(), "ManhunterPackArrived".Translate(hitPawn.kindDef.GetLabelPlural(-1)), LetterDefOf.ThreatBig, hitPawn);
+                        }
+                        else
+                        {
+                            hitPawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter);
+                            Find.LetterStack.ReceiveLetter("LetterLabelAnimalInsanitySingle".Translate(hitPawn.Label, hitPawn.Named("ANIMAL")), "AnimalInsanitySingle".Translate(hitPawn.Label, hitPawn.Named("ANIMAL")), LetterDefOf.ThreatBig, hitPawn);
+                        }
+                    }
+                }*/
+                MoteMaker.MakeAttachedOverlay(hitPawn, ThingDefOf.Mote_PsycastPsychicEffect, Vector3.zero, 1f, -1f);
+                MoteMaker.MakeConnectingLine(this.launcher.DrawPos, hitPawn.DrawPos, ThingDefOf.Mote_PsycastPsychicLine, this.launcher.Map, 1f);
                 //This checks to see if the character has a heal differential, or hediff on them already.
                 var hediffOnPawn = hitPawn.health?.hediffSet?.GetFirstHediffOfDef(Def.HediffToAdd);
                 // Severity percentage to add calculation based on quality
