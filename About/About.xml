@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
+
 	<name>HALO: Rimworld Psychic Pulse Armory</name>
 	<author>Helixien, Kikohi</author>
 	<supportedVersions>
+		<li>1.2</li>
 		<li>1.1</li>
 		<li>1.0</li>
 	</supportedVersions>
@@ -18,8 +20,9 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
+		<li>brrainz.harmony</li>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
-		<li>brrainz.harmony</li>
 	</loadAfter>
+
 </ModMetaData>
