@@ -17,11 +17,10 @@ namespace HRPPA
             var hediffOnPawn = pawn.health?.hediffSet?.GetFirstHediffOfDef(HRPPA_HediffDefOf.HRPPA_PsychicShock);
             // Severity percentage to add calculation based on quality
             float severity = 0.12f;
-            QualityCategory quality;
-            dinfo.Instigator.TryGetQuality(out quality);
+            dinfo.Instigator.TryGetQuality(out QualityCategory quality);
             if (quality == QualityCategory.Awful)
             {
-                severity = severity * 0.5f;
+                severity *= 0.5f;
             }
             else if (quality == QualityCategory.Poor)
             {

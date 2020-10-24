@@ -64,11 +64,10 @@ namespace HRPPA
                     var hediffOnPawn = hitPawn.health?.hediffSet?.GetFirstHediffOfDef(Def.HediffToAdd);
                     // Severity percentage to add calculation based on quality
                     float severity = Def.baseline;
-                    QualityCategory quality;
-                    this.launcher.TryGetQuality(out quality);
+                    this.launcher.TryGetQuality(out QualityCategory quality);
                     if (quality == QualityCategory.Awful)
                     {
-                        severity = severity * 0.5f;
+                        severity *= 0.5f;
                     }
                     else if (quality == QualityCategory.Poor)
                     {
@@ -117,8 +116,7 @@ namespace HRPPA
                 }
                 DamageInfo dinfo = new DamageInfo(this.def.projectile.damageDef, (float)base.DamageAmount, base.ArmorPenetration, this.ExactRotation.eulerAngles.y, this.launcher, null, this.equipmentDef, DamageInfo.SourceCategory.ThingOrUnknown, this.intendedTarget.Thing);
                 hitThing.TakeDamage(dinfo).AssociateWithLog(battleLogEntry_RangedImpact);
-                Pawn pawn = hitThing as Pawn;
-                if (pawn != null && pawn.stances != null && pawn.BodySize <= this.def.projectile.StoppingPower + 0.001f)
+                if (hitThing is Pawn pawn && pawn.stances != null && pawn.BodySize <= this.def.projectile.StoppingPower + 0.001f)
                 {
                     pawn.stances.StaggerFor(95);
                 }

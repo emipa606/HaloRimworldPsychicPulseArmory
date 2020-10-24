@@ -23,18 +23,16 @@ namespace HRPPA
                     List<Thing> thingList = intvec.GetThingList(this.Map);
                     for (int j = 0; j < thingList.Count; j++)
                     {
-                        Pawn pawn = thingList[j] as Pawn;
-                        if (pawn != null && pawn.RaceProps.intelligence >= Intelligence.Humanlike)
+                        if (thingList[j] is Pawn pawn && pawn.RaceProps.intelligence >= Intelligence.Humanlike)
                         {
                             //This checks to see if the character has a heal differential, or hediff on them already.
                             var hediffOnPawn = pawn.health?.hediffSet?.GetFirstHediffOfDef(HRPPA_HediffDefOf.HRPPA_PsychicShock);
                             // Severity percentage to add calculation based on quality
                             float severity = 0.12f;
-                            QualityCategory quality;
-                            this.launcher.TryGetQuality(out quality);
+                            this.launcher.TryGetQuality(out QualityCategory quality);
                             if (quality == QualityCategory.Awful)
                             {
-                                severity = severity * 0.5f;
+                                severity *= 0.5f;
                             }
                             else if (quality == QualityCategory.Poor)
                             {

@@ -1,28 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
+  <name>HALO: Rimworld Psychic Pulse Armory (Continued)</name>
+  <packageId>Mlie.HaloRimworldPsychicPulseArmory</packageId>
+  <author>Helixien, Kikohi</author>
+  <url>https://github.com/emipa606/HaloRimworldPsychicPulseArmory</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <description>Reupload of Helixien and Kikohis mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1971352747
+that has been scrapped and integrated into a new mod.
 
-	<name>HALO: Rimworld Psychic Pulse Armory</name>
-	<author>Helixien, Kikohi</author>
-	<supportedVersions>
-		<li>1.2</li>
-		<li>1.1</li>
-		<li>1.0</li>
-	</supportedVersions>
-	<url></url>
-	<packageId>Helixien.PsychicPulseArmory</packageId>
-	<description>Check the workshop page for information.</description>
-    <modDependencies>
-		<li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
-		</li>
-	</modDependencies>
-	<loadAfter>
-		<li>brrainz.harmony</li>
-		<li>Ludeon.RimWorld</li>
-		<li>Ludeon.RimWorld.Royalty</li>
-	</loadAfter>
+[img]https://i.imgur.com/wtwHAQu.png[/img]
 
+Support-chat:
+https://invite.gg/mlie
+
+Non-steam version:
+https://github.com/emipa606/HaloRimworldPsychicPulseArmory
+	
+--- Original Description ---
+[img]https://i.imgur.com/WBjs7fi.png[/img]
+
+
+- 1.1.1 - (26/07/2020): Added tag for Rimworld 1.2.
+- 1.1 - (26/07/2020): Now for Rimworld 1.1 with changes to how they work on animals.
+- 1.0.2 - (22/01/2020): Fixed issue with downed pawns staying downed.
+- 1.0 - (06/01/2020): Initial Release
+
+
+[img]https://i.imgur.com/Re4oJz0.png[/img]
+
+Do you like Halo? Do you like the Forerunner? Do you like weapons that perfectly integrate themselves into Rimworld? Then this is the mod for you!
+
+[b]“HALO: Rimworld Psychic Pulse Weaponry”[/b] adds a total of 8 new and unique weapons to Rimworld, based on Forerunner weapons from Halo 4 and Halo 5. Each weapon has been carefully tweaked and tested to be a bit overpowered, yet not too much to break the vanilla weapons sandbox. But the best thing, these weapons work VERY differently from other weapons.
+
+[b]How do Psychic Pulse Weapons work?[/b]
+Unlike normal weapons, they don’t cause any damage to the target, instead they apply a new condition, which you can see under the health tab of your target, called “Psychic Shock”. The more severe this condition gets, the more debuff the target gets until it finally gets downed. This makes them a great way to target specific pawns in a raid you want to capture or get an escaped prisoner back without having to accidentally kill him or cut of an arm. They are basically non-lethal, yet are more powerful than lethal weapons.
+
+Psychic Shock has been implemented in a way that it does not affect mechanoids, takes vanilla traits into account as well as equipment that might offset other psychic effects.
+All weapons have a different level of effectiveness, based on their type and quality.
+
+And be careful, psychic shock does have a chance to send the target into a berserker state!
+
+[b]Where do I get them?[/b]
+
+Like vanilla artefacts and other archotech objects, you can not make them or find them on enemies. However they will spawn in ancient temples, be rewarded to you through quests or you can hand over all your silver and a few organs to a trader who has one.
+
+And maybe if you are lucky one drops in a drop pod.
+
+[img]https://i.imgur.com/hfI5Rds.png[/img]
+
+Here is a complete list of all weapons I have added. More weapons might be added in the future and their stats will be tweaked if needed.
+
+[img]https://i.imgur.com/4b6SvOz.png[/img]
+[img]https://i.imgur.com/YMCayAp.png[/img]
+[img]https://i.imgur.com/Bk46p0P.png[/img]
+[img]https://i.imgur.com/JlKZNF8.png[/img]
+[img]https://i.imgur.com/6LS39H1.png[/img]
+
+[img]https://i.imgur.com/zsRXYSQ.png[/img]
+
+Since my weapons have their own system, no patch for Combat Extended is needed in theory. However a lot of people might want one, I don't. So I won't provide one.
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1975126093] Andross has provided a patch for CE here.[/url]
+
+
+[img]https://i.imgur.com/34eTpbz.png[/img]
+
+Nothing as of now!
+
+[img]https://i.imgur.com/LECpYzY.png[/img]
+
+Q: Do HRPPW weapons spawn on enemies and friendlies?
+A: No, they do not!
+
+Q: Is it Combat Extended compatible?
+A: Yes! They use their own system, no patch is needed in theory.
+
+Q: Is this mod part of the Vanilla Expanded Series or do you work for Oskar Potocki?
+A: No, I do not, but we are friends.
+
+Q: Why should I use this mod over any other Halo mod on the workshop?
+A: You shouldn't. This mod is not made to replace any of the existing ones, but to give players the option to choose a mod that adds their favorite weapons in a way that does not feel out of place. Everything, from textures, lore and stats has been made with vanilla Rimworld in mind! And they have their own unique damage system, that's a plus!
+
+Q: Will you add Covenant weapons?
+A: They will be their own mod, later this year most likely.
+
+Q: Will you add weapon X?
+A: I don't know, let me know which one you would want and I will see what I can do. But again, no promises!
+
+Q: Do they use the Halo sound effects?
+A: Near all of them use the appropriate sound effect from Halo 4 or Halo 5, however I did take some liberties here and there.
+
+[img]https://i.imgur.com/9WHOC8Z.png[/img]
+
+The concepts of these weapons, as well as their sounds, are property of Bungie/343i. I do not claim these as my own!
+
+Graphics are made by me, inspired by Halo weapons.
+
+Coding was done by Kikohi.
+
+Special thanks to Oskar Potocki, Luizi, Kikohi and Andross for their mentoring and putting up with me.
+
+Thanks to LoggerC4 for all his testing.
+
+Rimworld is owned by Tynan Sylvester.
+
+[url=https://creativecommons.org/licenses/by-nc-nd/4.0/] CC BY-NC-ND 4.0[/url] (applies only to graphics and code)
+
+[img]https://i.imgur.com/bZUPCnx.png[/img]
+
+These mods go along perfectly with my mod:
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511][img]https://i.imgur.com/MkmFIei.png[/img][/url][url=https://steamcommunity.com/workshop/filedetails/?id=1961456342][img]https://i.imgur.com/XbiMGTa.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511][img]https://i.imgur.com/yKvATIk.png[/img][/url]
+</description>
 </ModMetaData>
