@@ -1,18 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using RimWorld;
-using Verse;
-using UnityEngine;
+﻿using Verse;
 
 namespace HRPPA
 {
     public class ThingDef_PsychicPulse : ThingDef
     {
         public float baseline;
-        public float insanityChance = 0.05f;
         public HediffDef HediffToAdd;
+        public float insanityChance = 0.05f;
     }
 }
