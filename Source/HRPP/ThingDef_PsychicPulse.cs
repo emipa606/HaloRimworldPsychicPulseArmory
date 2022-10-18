@@ -1,11 +1,10 @@
 ﻿using Verse;
 
-namespace HRPPA
+namespace HRPPA;
+
+public class ThingDef_PsychicPulse : ThingDef
 {
-    public class ThingDef_PsychicPulse : ThingDef
-    {
-        public float baseline;
-        public HediffDef HediffToAdd;
-        public float insanityChance = 0.05f;
-    }
+    public float baseline;
+    public HediffDef HediffToAdd;
+    public float insanityChance = 0.05f;
 }

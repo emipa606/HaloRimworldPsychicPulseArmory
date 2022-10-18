@@ -1,24 +1,17 @@
 # HaloRimworldPsychicPulseArmory
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Reupload of Helixien and Kikohis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1971352747
 that has been scrapped and integrated into a new mod.
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+- For Combat Extended the user Aelflead Wayne made https://steamcommunity.com/sharedfiles/filedetails/?id=2684020337]HALO: Rimworld Psychic Pulse Armory CE Patch
 
+![Image](https://i.imgur.com/pufA0kM.png)
 
-[table]
-    [tr]
-        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-        [td]https://github.com/emipa606/HaloRimworldPsychicPulseArmory]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-    [/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 ![Image](https://i.imgur.com/WBjs7fi.png)
@@ -71,7 +64,7 @@ Here is a complete list of all weapons I have added. More weapons might be added
 ![Image](https://i.imgur.com/zsRXYSQ.png)
 
 
-Since my weapons have their own system, no patch for Combat Extended is needed in theory. However a lot of people might want one, I don&apos;t. So I won&apos;t provide one.
+Since my weapons have their own system, no patch for Combat Extended is needed in theory. However a lot of people might want one, I don't. So I won't provide one.
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=1975126093] Andross has provided a patch for CE here.
 
@@ -94,13 +87,13 @@ Q: Is this mod part of the Vanilla Expanded Series or do you work for Oskar Poto
 A: No, I do not, but we are friends.
 
 Q: Why should I use this mod over any other Halo mod on the workshop?
-A: You shouldn&apos;t. This mod is not made to replace any of the existing ones, but to give players the option to choose a mod that adds their favorite weapons in a way that does not feel out of place. Everything, from textures, lore and stats has been made with vanilla Rimworld in mind! And they have their own unique damage system, that&apos;s a plus!
+A: You shouldn't. This mod is not made to replace any of the existing ones, but to give players the option to choose a mod that adds their favorite weapons in a way that does not feel out of place. Everything, from textures, lore and stats has been made with vanilla Rimworld in mind! And they have their own unique damage system, that's a plus!
 
 Q: Will you add Covenant weapons?
 A: They will be their own mod, later this year most likely.
 
 Q: Will you add weapon X?
-A: I don&apos;t know, let me know which one you would want and I will see what I can do. But again, no promises!
+A: I don't know, let me know which one you would want and I will see what I can do. But again, no promises!
 
 Q: Do they use the Halo sound effects?
 A: Near all of them use the appropriate sound effect from Halo 4 or Halo 5, however I did take some liberties here and there.
@@ -133,7 +126,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511]![Image](https
 
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -143,6 +136,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511]![Image](https
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
