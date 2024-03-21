@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Adds weapons to ancient danger sites -->
+  <Operation Class="PatchOperationSequence">
+    <success>Normal</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingSetMakerDef[defName="MapGen_AncientTempleContents"]/root/options</xpath>
+        <value>
+          <li>
+            <chance>0.8</chance>
+            <thingSetMaker Class="ThingSetMaker_Count">
+              <fixedParams>
+                <qualityGenerator>Reward</qualityGenerator>
+                <filter>
+                  <thingDefs>
+                    <li>HRPPA_PsychicPulseCannon</li>
+                    <li>HRPPA_PsychicPulseRepeater</li>
+                    <li>HRPPA_PsychicPulseScatter</li>
+                    <li>HRPPA_PsychicPulseGrenade</li>
+                  </thingDefs>
+                </filter>
+              </fixedParams>
+            </thingSetMaker>
+          </li>
+          <li>
+            <chance>0.4</chance>
+            <thingSetMaker Class="ThingSetMaker_Count">
+              <fixedParams>
+                <qualityGenerator>Reward</qualityGenerator>
+                <filter>
+                  <thingDefs>
+                    <li>HRPPA_PsychicPulseSpinner</li>
+                    <li>HRPPA_PsychicPulseReacher</li>
+                    <li>HRPPA_PsychicPulseBlade</li>
+                  </thingDefs>
+                </filter>
+              </fixedParams>
+            </thingSetMaker>
+          </li>
+          <li>
+            <chance>0.2</chance>
+            <thingSetMaker Class="ThingSetMaker_Count">
+              <fixedParams>
+                <qualityGenerator>Reward</qualityGenerator>
+                <filter>
+                  <thingDefs>
+                    <li>HRPPA_PsychicPulseLancer</li>
+                  </thingDefs>
+                </filter>
+              </fixedParams>
+            </thingSetMaker>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

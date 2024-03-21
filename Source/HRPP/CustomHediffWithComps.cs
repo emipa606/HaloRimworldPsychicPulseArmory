@@ -11,12 +11,16 @@ internal class CustomHediffWithComps : HediffWithComps
         if (severityInt > 0.8)
         {
             pawn.health.AddHediff(HRPPA_HediffDefOf.HRPPA_downed);
+            return;
         }
-        else if (pawn.health.hediffSet.HasHediff(HRPPA_HediffDefOf.HRPPA_downed) && severityInt < 0.6)
+
+        if (pawn.health.hediffSet.HasHediff(HRPPA_HediffDefOf.HRPPA_downed) && severityInt < 0.6)
         {
             pawn.health.RemoveHediff(pawn.health.hediffSet.GetFirstHediffOfDef(HRPPA_HediffDefOf.HRPPA_downed));
+            return;
         }
-        else if (severityInt > 1.4)
+
+        if (severityInt > 1.4)
         {
             severityInt = 1;
         }

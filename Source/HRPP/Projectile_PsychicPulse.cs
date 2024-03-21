@@ -126,7 +126,7 @@ public class Projectile_PsychicPulse : Projectile
                 ExactRotation.eulerAngles.y, launcher, null, equipmentDef, DamageInfo.SourceCategory.ThingOrUnknown,
                 intendedTarget.Thing);
             hitThing.TakeDamage(dinfo).AssociateWithLog(battleLogEntry_RangedImpact);
-            if (hitThing is Pawn { stances: { } } pawn && pawn.BodySize <= def.projectile.StoppingPower + 0.001f)
+            if (hitThing is Pawn { stances: not null } pawn && pawn.BodySize <= def.projectile.StoppingPower + 0.001f)
             {
                 pawn.stances.stagger.StaggerFor(95);
             }
