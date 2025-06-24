@@ -142,6 +142,5 @@ These mods go along perfectly with my mod:
 [/list]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2266844058][img]https://img.shields.io/github/v/release/emipa606/HaloRimworldPsychicPulseArmory?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
-  <modIconPath IgnoreIfNoMatchingField="True">ModIcon/HaloRimworldPsychicPulseArmory</modIconPath>
   <modVersion IgnoreIfNoMatchingField="True">1.5.0</modVersion>
 </ModMetaData>
