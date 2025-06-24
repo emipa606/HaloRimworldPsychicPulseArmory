@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: charge shot -->
+  <HRPPA_Bullet_PsychicPulseCannon.label>charge shot</HRPPA_Bullet_PsychicPulseCannon.label>
+  <!-- EN: charge shot -->
+  <HRPPA_Bullet_PsychicPulseLancer.label>charge shot</HRPPA_Bullet_PsychicPulseLancer.label>
+  <!-- EN: charge shot -->
+  <HRPPA_Bullet_PsychicPulseReacher.label>charge shot</HRPPA_Bullet_PsychicPulseReacher.label>
+  <!-- EN: charge shot -->
+  <HRPPA_Bullet_PsychicPulseRepeater.label>charge shot</HRPPA_Bullet_PsychicPulseRepeater.label>
+  <!-- EN: charge shot -->
+  <HRPPA_Bullet_PsychicPulseShotgun.label>charge shot</HRPPA_Bullet_PsychicPulseShotgun.label>
+  <!-- EN: charge shot -->
+  <HRPPA_Bullet_PsychicPulseSpinner.label>charge shot</HRPPA_Bullet_PsychicPulseSpinner.label>
+  <!-- EN: psychic pulse grenade -->
+  <HRPPA_Proj_PsychicPulseGrenade.label>psychic pulse grenade</HRPPA_Proj_PsychicPulseGrenade.label>
+  <!-- EN: psychic pulse cannon -->
+  <HRPPA_PsychicPulseCannon.label>psychic pulse cannon</HRPPA_PsychicPulseCannon.label>
+  <!-- EN: An ancient handgun of unkown design, firing a psychic pulse that disorients and downs the target or drive them insane. -->
+  <HRPPA_PsychicPulseCannon.description>An ancient handgun of unkown design, firing a psychic pulse that disorients and downs the target or drive them insane.</HRPPA_PsychicPulseCannon.description>
+  <!-- EN: stock -->
+  <HRPPA_PsychicPulseCannon.tools.stock.label>stock</HRPPA_PsychicPulseCannon.tools.stock.label>
+  <!-- EN: barrel -->
+  <HRPPA_PsychicPulseCannon.tools.barrel.label>barrel</HRPPA_PsychicPulseCannon.tools.barrel.label>
+  <!-- EN: grip -->
+  <HRPPA_PsychicPulseCannon.tools.grip.label>grip</HRPPA_PsychicPulseCannon.tools.grip.label>
+  <!-- EN: psychic pulse cannon -->
+  <HRPPA_PsychicPulseCannon.verbs.Verb_Shoot.label>psychic pulse cannon</HRPPA_PsychicPulseCannon.verbs.Verb_Shoot.label>
+  <!-- EN: psychic pulse detonator -->
+  <HRPPA_PsychicPulseGrenade.label>psychic pulse detonator</HRPPA_PsychicPulseGrenade.label>
+  <!-- EN: An ancient grenade of unkown design, emitting a strong and rapid psychic pulse that disorients and downs the target or drive them insane. -->
+  <HRPPA_PsychicPulseGrenade.description>An ancient grenade of unkown design, emitting a strong and rapid psychic pulse that disorients and downs the target or drive them insane.</HRPPA_PsychicPulseGrenade.description>
+  <!-- EN: throw psychic pusle grenade -->
+  <HRPPA_PsychicPulseGrenade.verbs.throw_psychic_pusle_grenade.label>throw psychic pusle grenade</HRPPA_PsychicPulseGrenade.verbs.throw_psychic_pusle_grenade.label>
+  <!-- EN: psychic pulse lancer -->
+  <HRPPA_PsychicPulseLancer.label>psychic pulse lancer</HRPPA_PsychicPulseLancer.label>
+  <!-- EN: An ancient lancer of unkown design, firing a fast psychic pulse lance that disorients and downs the target or drive them insane. -->
+  <HRPPA_PsychicPulseLancer.description>An ancient lancer of unkown design, firing a fast psychic pulse lance that disorients and downs the target or drive them insane.</HRPPA_PsychicPulseLancer.description>
+  <!-- EN: stock -->
+  <HRPPA_PsychicPulseLancer.tools.stock.label>stock</HRPPA_PsychicPulseLancer.tools.stock.label>
+  <!-- EN: barrel -->
+  <HRPPA_PsychicPulseLancer.tools.barrel.label>barrel</HRPPA_PsychicPulseLancer.tools.barrel.label>
+  <!-- EN: grip -->
+  <HRPPA_PsychicPulseLancer.tools.grip.label>grip</HRPPA_PsychicPulseLancer.tools.grip.label>
+  <!-- EN: handel -->
+  <HRPPA_PsychicPulseLancer.tools.handel.label>handel</HRPPA_PsychicPulseLancer.tools.handel.label>
+  <!-- EN: psychic pulse lancer -->
+  <HRPPA_PsychicPulseLancer.verbs.Verb_Shoot.label>psychic pulse lancer</HRPPA_PsychicPulseLancer.verbs.Verb_Shoot.label>
+  <!-- EN: psychic pulse reacher -->
+  <HRPPA_PsychicPulseReacher.label>psychic pulse reacher</HRPPA_PsychicPulseReacher.label>
+  <!-- EN: An ancient sniper of unkown design, firing a fast psychic pulse that disorients and downs the target or drive them insane. -->
+  <HRPPA_PsychicPulseReacher.description>An ancient sniper of unkown design, firing a fast psychic pulse that disorients and downs the target or drive them insane.</HRPPA_PsychicPulseReacher.description>
+  <!-- EN: stock -->
+  <HRPPA_PsychicPulseReacher.tools.stock.label>stock</HRPPA_PsychicPulseReacher.tools.stock.label>
+  <!-- EN: barrel -->
+  <HRPPA_PsychicPulseReacher.tools.barrel.label>barrel</HRPPA_PsychicPulseReacher.tools.barrel.label>
+  <!-- EN: grip -->
+  <HRPPA_PsychicPulseReacher.tools.grip.label>grip</HRPPA_PsychicPulseReacher.tools.grip.label>
+  <!-- EN: psychic pulse reacher -->
+  <HRPPA_PsychicPulseReacher.verbs.Verb_Shoot.label>psychic pulse reacher</HRPPA_PsychicPulseReacher.verbs.Verb_Shoot.label>
+  <!-- EN: psychic pulse repeater -->
+  <HRPPA_PsychicPulseRepeater.label>psychic pulse repeater</HRPPA_PsychicPulseRepeater.label>
+  <!-- EN: An ancient rifle of unkown design, firing multiple psychic pulses that disorients and downs the target or drive them insane. -->
+  <HRPPA_PsychicPulseRepeater.description>An ancient rifle of unkown design, firing multiple psychic pulses that disorients and downs the target or drive them insane.</HRPPA_PsychicPulseRepeater.description>
+  <!-- EN: stock -->
+  <HRPPA_PsychicPulseRepeater.tools.stock.label>stock</HRPPA_PsychicPulseRepeater.tools.stock.label>
+  <!-- EN: barrel -->
+  <HRPPA_PsychicPulseRepeater.tools.barrel.label>barrel</HRPPA_PsychicPulseRepeater.tools.barrel.label>
+  <!-- EN: grip -->
+  <HRPPA_PsychicPulseRepeater.tools.grip.label>grip</HRPPA_PsychicPulseRepeater.tools.grip.label>
+  <!-- EN: psychic pulse repeater -->
+  <HRPPA_PsychicPulseRepeater.verbs.Verb_Shoot.label>psychic pulse repeater</HRPPA_PsychicPulseRepeater.verbs.Verb_Shoot.label>
+  <!-- EN: psychic pulse scatter -->
+  <HRPPA_PsychicPulseScatter.label>psychic pulse scatter</HRPPA_PsychicPulseScatter.label>
+  <!-- EN: An ancient shotgun of unkown design, firing multiple, small psychic pulses in one shot that disorients and downs the target or drive them insane. -->
+  <HRPPA_PsychicPulseScatter.description>An ancient shotgun of unkown design, firing multiple, small psychic pulses in one shot that disorients and downs the target or drive them insane.</HRPPA_PsychicPulseScatter.description>
+  <!-- EN: stock -->
+  <HRPPA_PsychicPulseScatter.tools.stock.label>stock</HRPPA_PsychicPulseScatter.tools.stock.label>
+  <!-- EN: barrel -->
+  <HRPPA_PsychicPulseScatter.tools.barrel.label>barrel</HRPPA_PsychicPulseScatter.tools.barrel.label>
+  <!-- EN: grip -->
+  <HRPPA_PsychicPulseScatter.tools.grip.label>grip</HRPPA_PsychicPulseScatter.tools.grip.label>
+  <!-- EN: psychic pulse scatter -->
+  <HRPPA_PsychicPulseScatter.verbs.Verb_Shoot.label>psychic pulse scatter</HRPPA_PsychicPulseScatter.verbs.Verb_Shoot.label>
+  <!-- EN: psychic pulse spinner -->
+  <HRPPA_PsychicPulseSpinner.label>psychic pulse spinner</HRPPA_PsychicPulseSpinner.label>
+  <!-- EN: An ancient rapid fire rifle of unkown design, firing multiple psychic pulses in a short time that disorients and downs the target or drive them insane. -->
+  <HRPPA_PsychicPulseSpinner.description>An ancient rapid fire rifle of unkown design, firing multiple psychic pulses in a short time that disorients and downs the target or drive them insane.</HRPPA_PsychicPulseSpinner.description>
+  <!-- EN: stock -->
+  <HRPPA_PsychicPulseSpinner.tools.stock.label>stock</HRPPA_PsychicPulseSpinner.tools.stock.label>
+  <!-- EN: barrel -->
+  <HRPPA_PsychicPulseSpinner.tools.barrel.label>barrel</HRPPA_PsychicPulseSpinner.tools.barrel.label>
+  <!-- EN: grip -->
+  <HRPPA_PsychicPulseSpinner.tools.grip.label>grip</HRPPA_PsychicPulseSpinner.tools.grip.label>
+  <!-- EN: psychic pulse spinner -->
+  <HRPPA_PsychicPulseSpinner.verbs.Verb_Shoot.label>psychic pulse spinner</HRPPA_PsychicPulseSpinner.verbs.Verb_Shoot.label>
+</LanguageData>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>HRPPA_Shot_PsychicPulseCannon</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/HRPPW_cannon</clipFolderPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9082353</min>
+          <max>1.045882</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HRPPA_Shot_PsychicPulseRepeater</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>3</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/HRPPW_repeater</clipFolderPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9082353</min>
+          <max>1.045882</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HRPPA_Shot_PsychicPulseReacher</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/HRPPW_reacher</clipFolderPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9082353</min>
+          <max>1.045882</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HRPPA_Shot_PsychicPulseSpinner</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/HRPPW_spinner</clipFolderPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9082353</min>
+          <max>1.045882</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HRPPA_Shot_PsychicPulseScatter</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/HRPPW_scatter</clipFolderPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9082353</min>
+          <max>1.045882</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HRPPA_Shot_PsychicPulseLancer</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/HRPPW_lancer</clipFolderPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9082353</min>
+          <max>1.045882</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HRPPA_Shot_PsychicPulseGrenade</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/HRPPW_grenade</clipFolderPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9082353</min>
+          <max>1.045882</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

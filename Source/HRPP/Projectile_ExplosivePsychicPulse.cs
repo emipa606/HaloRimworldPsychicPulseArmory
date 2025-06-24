@@ -10,14 +10,14 @@ internal class Projectile_ExplosivePsychicPulse : Projectile_Explosive
         var explosionRadius = def.projectile.explosionRadius;
         var c = GenRadial.RadialCellsAround(Position, explosionRadius, true);
         FleckMaker.Static(Position.ToVector3(), Map, FleckDefOf.PsycastAreaEffect, 3f);
-        foreach (var intvec in c)
+        foreach (var intVec in c)
         {
-            if (!intvec.InBounds(Map))
+            if (!intVec.InBounds(Map))
             {
                 continue;
             }
 
-            var thingList = intvec.GetThingList(Map);
+            var thingList = intVec.GetThingList(Map);
             foreach (var thing in thingList)
             {
                 if (thing is not Pawn pawn || pawn.RaceProps.intelligence < Intelligence.Humanlike)

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: psychic pulse blade -->
+  <HRPPA_PsychicPulseBlade.label>psychic pulse blade</HRPPA_PsychicPulseBlade.label>
+  <!-- EN: An ancient pulse blade of unkown design, driving the target insane and disorients it. -->
+  <HRPPA_PsychicPulseBlade.description>An ancient pulse blade of unkown design, driving the target insane and disorients it.</HRPPA_PsychicPulseBlade.description>
+  <!-- EN: handle -->
+  <HRPPA_PsychicPulseBlade.tools.handle.label>handle</HRPPA_PsychicPulseBlade.tools.handle.label>
+  <!-- EN: point -->
+  <HRPPA_PsychicPulseBlade.tools.point.label>point</HRPPA_PsychicPulseBlade.tools.point.label>
+  <!-- EN: edge -->
+  <HRPPA_PsychicPulseBlade.tools.edge.label>edge</HRPPA_PsychicPulseBlade.tools.edge.label>
+</LanguageData>

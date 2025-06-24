@@ -9,15 +9,15 @@ namespace HRPPA;
 
 public class Projectile_PsychicPulse : Projectile
 {
-    public ThingDef_PsychicPulse Def => def as ThingDef_PsychicPulse;
+    private ThingDef_PsychicPulse Def => def as ThingDef_PsychicPulse;
 
     protected override void Impact(Thing hitThing, bool blockedByShield = false)
     {
         var map = Map;
         base.Impact(hitThing, blockedByShield);
-        var battleLogEntry_RangedImpact = new BattleLogEntry_RangedImpact(launcher, hitThing, intendedTarget.Thing,
+        var battleLogEntryRangedImpact = new BattleLogEntry_RangedImpact(launcher, hitThing, intendedTarget.Thing,
             equipmentDef, def, targetCoverDef);
-        Find.BattleLog.Add(battleLogEntry_RangedImpact);
+        Find.BattleLog.Add(battleLogEntryRangedImpact);
         if (hitThing != null)
         {
             FleckMaker.AttachedOverlay(hitThing, FleckDefOf.PsycastAreaEffect, Vector3.zero);
@@ -29,39 +29,43 @@ public class Projectile_PsychicPulse : Projectile
                 {
                     var random = new Random();
                     var rn = random.Next(0, 101);
-                    if (rn > 50)
+                    switch (rn)
                     {
-                        var sameAnimalRaces = (from p in hitPawn.Map.mapPawns.AllPawnsSpawned
-                            where p.kindDef == hitPawn.kindDef
-                            select p).ToList();
-                        if (sameAnimalRaces.Count > 0)
+                        case > 50:
                         {
-                            foreach (var item in sameAnimalRaces)
+                            var sameAnimalRaces = (from p in hitPawn.Map.mapPawns.AllPawnsSpawned
+                                where p.kindDef == hitPawn.kindDef
+                                select p).ToList();
+                            if (sameAnimalRaces.Count > 0)
                             {
-                                item.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter);
+                                foreach (var item in sameAnimalRaces)
+                                {
+                                    item.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter);
+                                }
+
+                                Find.LetterStack.ReceiveLetter(
+                                    "LetterLabelAnimalInsanityMultiple".Translate(hitPawn.kindDef.GetLabelPlural()),
+                                    "AnimalInsanityMultiple".Translate(hitPawn.kindDef.GetLabelPlural()),
+                                    LetterDefOf.ThreatBig, hitPawn);
+                            }
+                            else
+                            {
+                                hitPawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter);
+                                Find.LetterStack.ReceiveLetter(
+                                    "LetterLabelAnimalInsanitySingle".Translate(hitPawn.Label, hitPawn.Named("ANIMAL")),
+                                    "AnimalInsanitySingle".Translate(hitPawn.Label, hitPawn.Named("ANIMAL")),
+                                    LetterDefOf.ThreatBig, hitPawn);
                             }
 
-                            Find.LetterStack.ReceiveLetter(
-                                "LetterLabelAnimalInsanityMultiple".Translate(hitPawn.kindDef.GetLabelPlural()),
-                                "AnimalInsanityMultiple".Translate(hitPawn.kindDef.GetLabelPlural()),
-                                LetterDefOf.ThreatBig, hitPawn);
+                            break;
                         }
-                        else
-                        {
+                        case > 25:
                             hitPawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter);
                             Find.LetterStack.ReceiveLetter(
                                 "LetterLabelAnimalInsanitySingle".Translate(hitPawn.Label, hitPawn.Named("ANIMAL")),
                                 "AnimalInsanitySingle".Translate(hitPawn.Label, hitPawn.Named("ANIMAL")),
                                 LetterDefOf.ThreatBig, hitPawn);
-                        }
-                    }
-                    else if (rn > 25)
-                    {
-                        hitPawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter);
-                        Find.LetterStack.ReceiveLetter(
-                            "LetterLabelAnimalInsanitySingle".Translate(hitPawn.Label, hitPawn.Named("ANIMAL")),
-                            "AnimalInsanitySingle".Translate(hitPawn.Label, hitPawn.Named("ANIMAL")),
-                            LetterDefOf.ThreatBig, hitPawn);
+                            break;
                     }
                 }
 
@@ -70,29 +74,26 @@ public class Projectile_PsychicPulse : Projectile
                 // Severity percentage to add calculation based on quality
                 var severity = Def.baseline;
                 launcher.TryGetQuality(out var quality);
-                if (quality == QualityCategory.Awful)
+                switch (quality)
                 {
-                    severity *= 0.5f;
-                }
-                else if (quality == QualityCategory.Poor)
-                {
-                    severity -= severity * 0.25f;
-                }
-                else if (quality == QualityCategory.Good)
-                {
-                    severity += severity * 0.25f;
-                }
-                else if (quality == QualityCategory.Excellent)
-                {
-                    severity += severity * 0.5f;
-                }
-                else if (quality == QualityCategory.Masterwork)
-                {
-                    severity += severity * 0.75f;
-                }
-                else if (quality == QualityCategory.Legendary)
-                {
-                    severity += severity;
+                    case QualityCategory.Awful:
+                        severity *= 0.5f;
+                        break;
+                    case QualityCategory.Poor:
+                        severity -= severity * 0.25f;
+                        break;
+                    case QualityCategory.Good:
+                        severity += severity * 0.25f;
+                        break;
+                    case QualityCategory.Excellent:
+                        severity += severity * 0.5f;
+                        break;
+                    case QualityCategory.Masterwork:
+                        severity += severity * 0.75f;
+                        break;
+                    case QualityCategory.Legendary:
+                        severity += severity;
+                        break;
                 }
 
                 // End
@@ -122,11 +123,10 @@ public class Projectile_PsychicPulse : Projectile
                 }
             }
 
-            var dinfo = new DamageInfo(def.projectile.damageDef, DamageAmount, ArmorPenetration,
+            hitThing.TakeDamage(new DamageInfo(def.projectile.damageDef, DamageAmount, ArmorPenetration,
                 ExactRotation.eulerAngles.y, launcher, null, equipmentDef, DamageInfo.SourceCategory.ThingOrUnknown,
-                intendedTarget.Thing);
-            hitThing.TakeDamage(dinfo).AssociateWithLog(battleLogEntry_RangedImpact);
-            if (hitThing is Pawn { stances: not null } pawn && pawn.BodySize <= def.projectile.StoppingPower + 0.001f)
+                intendedTarget.Thing)).AssociateWithLog(battleLogEntryRangedImpact);
+            if (hitThing is Pawn { stances: not null } pawn && pawn.BodySize <= def.projectile.stoppingPower + 0.001f)
             {
                 pawn.stances.stagger.StaggerFor(95);
             }
@@ -150,10 +150,10 @@ public class Projectile_PsychicPulse : Projectile
                     continue;
                 }
 
-                var dinfo2 = new DamageInfo(extraDamage.def, extraDamage.amount,
-                    extraDamage.AdjustedArmorPenetration(), ExactRotation.eulerAngles.y, launcher, null,
-                    equipmentDef, DamageInfo.SourceCategory.ThingOrUnknown, intendedTarget.Thing);
-                hitThing.TakeDamage(dinfo2).AssociateWithLog(battleLogEntry_RangedImpact);
+                hitThing.TakeDamage(new DamageInfo(extraDamage.def, extraDamage.amount,
+                        extraDamage.AdjustedArmorPenetration(), ExactRotation.eulerAngles.y, launcher, null,
+                        equipmentDef, DamageInfo.SourceCategory.ThingOrUnknown, intendedTarget.Thing))
+                    .AssociateWithLog(battleLogEntryRangedImpact);
             }
 
             return;

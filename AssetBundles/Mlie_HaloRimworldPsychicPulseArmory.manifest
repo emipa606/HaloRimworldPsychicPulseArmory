@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 275024228
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: db6614593fdeaab2818f8703fd16d007
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: db6614593fdeaab2818f8703fd16d007
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_scatter/HRPPW_scatter_c.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_lancer/HRPPW_lancer_a.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_reacher/HRPPW_reacher_a.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_grenade/HRPPW_grenade_b.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_cannon/HRPPW_cannon_c.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_lancer/HRPPW_lancer_c.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_grenade/HRPPW_grenade_a.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_lancer/HRPPW_lancer_b.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_cannon/HRPPW_cannon_b.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_scatter/HRPPW_scatter_e.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_cannon/HRPPW_cannon_d.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_reacher/HRPPW_reacher_d.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Textures/Things/Item/Equipment/WeaponsRanged/HRPPW_scatter.png
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_repeater/HRPPW_repeater_d.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_reacher/HRPPW_reacher_c.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Textures/Things/Item/Equipment/WeaponsRanged/HRPPW_pistol.png
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_scatter/HRPPW_scatter_b.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Textures/Things/Item/Equipment/WeaponsRanged/HRPPW_lancer.png
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Textures/Things/Item/Equipment/WeaponsRanged/HRPPW_scatter_old.png
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Textures/Things/Projectile/HRPPW_grenade.png
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_spinner/HRPPW_spinner_c.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Textures/Things/Item/Equipment/WeaponsRanged/HRPPW_reacher.png
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_scatter/HRPPW_scatter_a.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Textures/Things/Projectile/HRPPW_PsychicPulse_LanceShot.png
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Textures/Things/Item/Equipment/WeaponsMelee/HRPPW_blade.png
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Textures/Things/Projectile/HRPPW_PsychicPulse_Small.png
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_repeater/HRPPW_repeater_c.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Textures/Things/Item/Equipment/WeaponsRanged/HRPPW_lmg.png
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_scatter/HRPPW_scatter_d.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_spinner/HRPPW_spinner_b.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_lancer/HRPPW_lancer_d.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_cannon/HRPPW_cannon_e.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_repeater/HRPPW_repeater_a.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Textures/Things/Item/Equipment/WeaponsRanged/HRPPW_grenade.png
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_reacher/HRPPW_reacher_b.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_spinner/HRPPW_spinner_a.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_repeater/HRPPW_repeater_b.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Textures/Things/Projectile/HRPPW_PsychicPulse_Shotgun.png
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Textures/Things/Item/Equipment/WeaponsMelee/HRPPW_blade_old.png
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_repeater/HRPPW_repeater_e.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_spinner/HRPPW_spinner_d.wav
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Textures/Things/Item/Equipment/WeaponsRanged/HRRPW_repeater.png
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Textures/Things/Item/Equipment/WeaponsRanged/HRPPW_reacher_old.png
+- Assets/Data/Mlie.HaloRimworldPsychicPulseArmory/Sounds/Weapon/HRPPW_cannon/HRPPW_cannon_a.wav
+Dependencies: []

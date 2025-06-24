@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: pulse -->
+  <HRPPA_MeleePulse.label>pulse</HRPPA_MeleePulse.label>
+  <!-- EN: {0} has been pulsed to death. -->
+  <HRPPA_MeleePulse.deathMessage>{0} has been pulsed to death.</HRPPA_MeleePulse.deathMessage>
+  <!-- EN: pulse -->
+  <HRPPA_RangedPulse.label>pulse</HRPPA_RangedPulse.label>
+  <!-- EN: {0} has been pulsed to death. -->
+  <HRPPA_RangedPulse.deathMessage>{0} has been pulsed to death.</HRPPA_RangedPulse.deathMessage>
+  <!-- EN: psychic pulse bomb -->
+  <PsychicPulseBomb.label>psychic pulse bomb</PsychicPulseBomb.label>
+  <!-- EN: {0} has died in an psychic pulse explosion. -->
+  <PsychicPulseBomb.deathMessage>{0} has died in an psychic pulse explosion.</PsychicPulseBomb.deathMessage>
+</LanguageData>

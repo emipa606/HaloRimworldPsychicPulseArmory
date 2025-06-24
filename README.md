@@ -1,4 +1,4 @@
-# HaloRimworldPsychicPulseArmory
+# [HALO: Rimworld Psychic Pulse Armory (Continued)]()
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -6,16 +6,16 @@ Reupload of Helixien and Kikohis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1971352747
 that has been scrapped and integrated into a new mod.
 
-- For Combat Extended the user Aelflead Wayne made https://steamcommunity.com/sharedfiles/filedetails/?id=2684020337]HALO: Rimworld Psychic Pulse Armory CE Patch
+**The release of RimWorld 1.6 added improved support for [Asset Bundles](https://github.com/emipa606/AssetBuilder/blob/main/README.md)**.
+To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the previous version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2266844058).
+
+- For Combat Extended the user Aelflead Wayne made [HALO: Rimworld Psychic Pulse Armory CE Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=2684020337)
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
-
 ![Image](https://i.imgur.com/WBjs7fi.png)
-
 
 
 - 1.1.1 - (26/07/2020): Added tag for Rimworld 1.2.
@@ -25,7 +25,6 @@ that has been scrapped and integrated into a new mod.
 
 
 ![Image](https://i.imgur.com/Re4oJz0.png)
-
 
 Do you like Halo? Do you like the Forerunner? Do you like weapons that perfectly integrate themselves into Rimworld? Then this is the mod for you!
 
@@ -47,7 +46,6 @@ And maybe if you are lucky one drops in a drop pod.
 
 ![Image](https://i.imgur.com/hfI5Rds.png)
 
-
 Here is a complete list of all weapons I have added. More weapons might be added in the future and their stats will be tweaked if needed.
 
 ![Image](https://i.imgur.com/4b6SvOz.png)
@@ -60,22 +58,18 @@ Here is a complete list of all weapons I have added. More weapons might be added
 
 ![Image](https://i.imgur.com/6LS39H1.png)
 
-
 ![Image](https://i.imgur.com/zsRXYSQ.png)
-
 
 Since my weapons have their own system, no patch for Combat Extended is needed in theory. However a lot of people might want one, I don't. So I won't provide one.
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=1975126093] Andross has provided a patch for CE here.
+[ Andross has provided a patch for CE here.](https://steamcommunity.com/sharedfiles/filedetails/?id=1975126093)
 
 
 ![Image](https://i.imgur.com/34eTpbz.png)
 
-
 Nothing as of now!
 
 ![Image](https://i.imgur.com/LECpYzY.png)
-
 
 Q: Do HRPPW weapons spawn on enemies and friendlies?
 A: No, they do not!
@@ -100,7 +94,6 @@ A: Near all of them use the appropriate sound effect from Halo 4 or Halo 5, howe
 
 ![Image](https://i.imgur.com/9WHOC8Z.png)
 
-
 The concepts of these weapons, as well as their sounds, are property of Bungie/343i. I do not claim these as my own!
 
 Graphics are made by me, inspired by Halo weapons.
@@ -113,17 +106,13 @@ Thanks to LoggerC4 for all his testing.
 
 Rimworld is owned by Tynan Sylvester.
 
-https://creativecommons.org/licenses/by-nc-nd/4.0/] CC BY-NC-ND 4.0 (applies only to graphics and code)
+[ CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) (applies only to graphics and code)
 
 ![Image](https://i.imgur.com/bZUPCnx.png)
 
-
 These mods go along perfectly with my mod:
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511]![Image](https://i.imgur.com/MkmFIei.png)
-https://steamcommunity.com/workshop/filedetails/?id=1961456342]![Image](https://i.imgur.com/XbiMGTa.png)
-https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511]![Image](https://i.imgur.com/yKvATIk.png)
-
+[![Image](https://i.imgur.com/MkmFIei.png)[/url][url=https://steamcommunity.com/workshop/filedetails/?id=1961456342]![Image](https://i.imgur.com/XbiMGTa.png)[/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511]![Image](https://i.imgur.com/yKvATIk.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511)
 
 
 ![Image](https://i.imgur.com/PwoNOj4.png)
@@ -132,13 +121,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511]![Image](https
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
-
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2266844058]![Image](https://img.shields.io/github/v/release/emipa606/HaloRimworldPsychicPulseArmory?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
 
