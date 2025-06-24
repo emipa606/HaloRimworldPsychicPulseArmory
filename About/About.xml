@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>HALO: Rimworld Psychic Pulse Armory (Continued)</name>
+  <name>[Legacy] HALO: Rimworld Psychic Pulse Armory (Continued)</name>
   <packageId>Mlie.HaloRimworldPsychicPulseArmory</packageId>
   <author>Helixien, Kikohi</author>
   <url>https://github.com/emipa606/HaloRimworldPsychicPulseArmory</url>
@@ -17,6 +17,10 @@ Reupload of Helixien and Kikohis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1971352747
 that has been scrapped and integrated into a new mod.
 
+[b]The release of RimWorld 1.6 added improved support for [url=https://github.com/emipa606/AssetBuilder/blob/main/README.md]Asset Bundles[/url].[/b]
+To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the new version of this mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3507626861]here[/url].
+This version will not receive any further updates.
+
 - For Combat Extended the user Aelflead Wayne made [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2684020337]HALO: Rimworld Psychic Pulse Armory CE Patch[/url]
 
 [img]https://i.imgur.com/pufA0kM.png[/img]
@@ -24,7 +28,7 @@ that has been scrapped and integrated into a new mod.
 [table]
     [tr]
         [td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/HaloRimworldPsychicPulseArmory][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/HaloRimworldPsychicPulseArmory/tree/legacy][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
     [tr]
         [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
@@ -139,8 +143,8 @@ These mods go along perfectly with my mod:
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]
+[/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2266844058][img]https://img.shields.io/github/v/release/emipa606/HaloRimworldPsychicPulseArmory?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.0</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
 </ModMetaData>

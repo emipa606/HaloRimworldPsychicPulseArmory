@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef Name="BaseArchotechMeleeWeapon" Abstract="True" ParentName="BaseWeapon">
     <techLevel>Archotech</techLevel>
