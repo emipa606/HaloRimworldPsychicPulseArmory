@@ -1,21 +1,21 @@
 # [HALO: Rimworld Psychic Pulse Armory (Continued)]()
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Reupload of Helixien and Kikohis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1971352747
 that has been scrapped and integrated into a new mod.
 
-**The release of RimWorld 1.6 added improved support for [Asset Bundles](https://github.com/emipa606/AssetBuilder/blob/main/README.md)**.
-To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the previous version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2266844058).
+**The release of RimWorld 1.7 added a system where assets like textures and sounds can be cached to improve performance**.
+To avoid doubling the size of the mod, it was re-released with only this cache included, you can find the previous version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3507626861).
 
 - For Combat Extended the user Aelflead Wayne made [HALO: Rimworld Psychic Pulse Armory CE Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=2684020337)
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
-![Image](https://i.imgur.com/WBjs7fi.png)
+![Image](https://img.litet.net/WBjs7fi.png)
 
 
 - 1.1.1 - (26/07/2020): Added tag for Rimworld 1.2.
@@ -24,7 +24,7 @@ To avoid doubling the size of the mod, it was re-released using only Asset Bundl
 - 1.0 - (06/01/2020): Initial Release
 
 
-![Image](https://i.imgur.com/Re4oJz0.png)
+![Image](https://img.litet.net/Re4oJz0.png)
 
 Do you like Halo? Do you like the Forerunner? Do you like weapons that perfectly integrate themselves into Rimworld? Then this is the mod for you!
 
@@ -44,32 +44,32 @@ Like vanilla artefacts and other archotech objects, you can not make them or fin
 
 And maybe if you are lucky one drops in a drop pod.
 
-![Image](https://i.imgur.com/hfI5Rds.png)
+![Image](https://img.litet.net/hfI5Rds.png)
 
 Here is a complete list of all weapons I have added. More weapons might be added in the future and their stats will be tweaked if needed.
 
-![Image](https://i.imgur.com/4b6SvOz.png)
+![Image](https://img.litet.net/4b6SvOz.png)
 
-![Image](https://i.imgur.com/YMCayAp.png)
+![Image](https://img.litet.net/YMCayAp.png)
 
-![Image](https://i.imgur.com/Bk46p0P.png)
+![Image](https://img.litet.net/Bk46p0P.png)
 
-![Image](https://i.imgur.com/JlKZNF8.png)
+![Image](https://img.litet.net/JlKZNF8.png)
 
-![Image](https://i.imgur.com/6LS39H1.png)
+![Image](https://img.litet.net/6LS39H1.png)
 
-![Image](https://i.imgur.com/zsRXYSQ.png)
+![Image](https://img.litet.net/zsRXYSQ.png)
 
 Since my weapons have their own system, no patch for Combat Extended is needed in theory. However a lot of people might want one, I don't. So I won't provide one.
 
 [ Andross has provided a patch for CE here.](https://steamcommunity.com/sharedfiles/filedetails/?id=1975126093)
 
 
-![Image](https://i.imgur.com/34eTpbz.png)
+![Image](https://img.litet.net/34eTpbz.png)
 
 Nothing as of now!
 
-![Image](https://i.imgur.com/LECpYzY.png)
+![Image](https://img.litet.net/LECpYzY.png)
 
 Q: Do HRPPW weapons spawn on enemies and friendlies?
 A: No, they do not!
@@ -92,7 +92,7 @@ A: I don't know, let me know which one you would want and I will see what I can 
 Q: Do they use the Halo sound effects?
 A: Near all of them use the appropriate sound effect from Halo 4 or Halo 5, however I did take some liberties here and there.
 
-![Image](https://i.imgur.com/9WHOC8Z.png)
+![Image](https://img.litet.net/9WHOC8Z.png)
 
 The concepts of these weapons, as well as their sounds, are property of Bungie/343i. I do not claim these as my own!
 
@@ -108,23 +108,23 @@ Rimworld is owned by Tynan Sylvester.
 
 [ CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) (applies only to graphics and code)
 
-![Image](https://i.imgur.com/bZUPCnx.png)
+![Image](https://img.litet.net/bZUPCnx.png)
 
 These mods go along perfectly with my mod:
 
-[![Image](https://i.imgur.com/MkmFIei.png)[/url][url=https://steamcommunity.com/workshop/filedetails/?id=1961456342]![Image](https://i.imgur.com/XbiMGTa.png)[/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511]![Image](https://i.imgur.com/yKvATIk.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511)
+[![Image](https://img.litet.net/MkmFIei.png)[/url][url=https://steamcommunity.com/workshop/filedetails/?id=1961456342]![Image](https://img.litet.net/XbiMGTa.png)[/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511]![Image](https://img.litet.net/yKvATIk.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511)
 
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
 -  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
-
+  | forerunner weapons, psychic pulse weapons

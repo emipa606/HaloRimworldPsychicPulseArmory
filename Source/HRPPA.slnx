@@ -3,4 +3,29 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="HRPP/HRPPA.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingCategoryDefs/">
+    <File Path="../1.7/Defs/ThingCategoryDefs/ThingCategories.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/HediffDefs/">
+    <File Path="../1.7/Defs/HediffDefs/Hediffs_Global_Misc.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Misc/Weapons/">
+    <File Path="../1.7/Defs/ThingDefs_Misc/Weapons/MeleeArchotech.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Misc/Weapons/RangedArchotech.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/SoundDefs/">
+    <File Path="../1.7/Defs/SoundDefs/World_Oneshots_Weapons.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/Core/ThingSetMakerDefs/">
+    <File Path="../1.7/Patches/Core/ThingSetMakerDefs/ThingSetMakers_MapGen.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/DamageDefs/">
+    <File Path="../1.7/Defs/DamageDefs/Damage_NoHarm.xml" />
+  </Folder>
 </Solution>
