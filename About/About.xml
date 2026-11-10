@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>HALO: Rimworld Psychic Pulse Armory (Continued)</name>
+  <name>[1.6] HALO: Rimworld Psychic Pulse Armory (Continued)</name>
   <packageId>Mlie.HaloRimworldPsychicPulseArmory</packageId>
   <author>Helixien, Kikohi</author>
   <url>https://github.com/emipa606/HaloRimworldPsychicPulseArmory</url>
@@ -12,8 +12,9 @@ Reupload of Helixien and Kikohis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1971352747
 that has been scrapped and integrated into a new mod.
 
-[b]The release of RimWorld 1.6 added improved support for [url=https://github.com/emipa606/AssetBuilder/blob/main/README.md]Asset Bundles[/url][/b].
-To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the previous version of this mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2266844058]here[/url].
+[b]The release of RimWorld 1.7 added a system where assets like textures and sounds can be cached to improve performance[/b].
+To avoid doubling the size of the mod, it was re-released with only this cache included, you can find the new version of this mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837544483]here[/url].
+This version will not receive any further updates.
 
 - For Combat Extended the user Aelflead Wayne made [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2684020337]HALO: Rimworld Psychic Pulse Armory CE Patch[/url]
 
@@ -22,7 +23,7 @@ To avoid doubling the size of the mod, it was re-released using only Asset Bundl
 [table]
     [tr]
         [td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/HaloRimworldPsychicPulseArmory][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/HaloRimworldPsychicPulseArmory/tree/assetbundles][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
         [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
@@ -140,5 +141,5 @@ These mods go along perfectly with my mod:
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3507626861][img]https://img.shields.io/github/v/release/emipa606/HaloRimworldPsychicPulseArmory?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | forerunner weapons, psychic pulse weapons</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>
