@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
   <!-- EN: downed -->
   <HRPPA_downed.label>downed</HRPPA_downed.label>
   <!-- EN: Downed -->
   <HRPPA_downed.description>Downed</HRPPA_downed.description>
   <!-- EN: downed -->
   <HRPPA_downed.labelNoun>downed</HRPPA_downed.labelNoun>
+  
   <!-- EN: psychic shock -->
   <HRPPA_PsychicShock.label>psychic shock</HRPPA_PsychicShock.label>
   <!-- EN: Psychic shock -->
@@ -22,4 +24,5 @@
   <HRPPA_PsychicShock.stages.serious.label>serious</HRPPA_PsychicShock.stages.serious.label>
   <!-- EN: extreme -->
   <HRPPA_PsychicShock.stages.extreme.label>extreme</HRPPA_PsychicShock.stages.extreme.label>
+  
 </LanguageData>

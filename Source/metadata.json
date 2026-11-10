@@ -3,5 +3,11 @@
   "CanAdd": "0",
   "CanRemove": "2",
   "PreviewVersion": "1.6",
-  "LastXmlCleaning": "2025-06-24T15:25:31.9616094+02:00"
+  "LastXmlCleaning": "2025-06-24T15:25:31.9616094+02:00",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 43363,
+  "LinesOfXML": 39531,
+  "CodeBaseSize": 77
 }
